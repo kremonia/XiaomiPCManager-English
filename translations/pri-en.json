@@ -293,7 +293,7 @@
     },
     {
         "Source":  "互传",
-        "Translation":  "mutual transmission"
+        "Translation":  "Share"
     },
     {
         "Source":  "互联节能模式已开启",
@@ -481,7 +481,7 @@
     },
     {
         "Source":  "剪贴板",
-        "Translation":  "clipboard"
+        "Translation":  "Clipboard"
     },
     {
         "Source":  "副屏镜像",
@@ -685,7 +685,7 @@
     },
     {
         "Source":  "妙享桌面",
-        "Translation":  "Xiaomi Desktop"
+        "Translation":  "Desktop"
     },
     {
         "Source":  "字幕转录",
@@ -1125,7 +1125,7 @@
     },
     {
         "Source":  "截屏",
-        "Translation":  "screenshot"
+        "Translation":  "Screenshot"
     },
     {
         "Source":  "手机已开启省电模式",
@@ -1213,7 +1213,7 @@
     },
     {
         "Source":  "投屏",
-        "Translation":  "cast screen"
+        "Translation":  "Screen cast"
     },
     {
         "Source":  "投屏模式",
@@ -1365,7 +1365,7 @@
     },
     {
         "Source":  "文件搜索",
-        "Translation":  "File search"
+        "Translation":  "Search"
     },
     {
         "Source":  "文件无法发送",
@@ -1937,7 +1937,7 @@
     },
     {
         "Source":  "网络协同",
-        "Translation":  "Shared internet"
+        "Translation":  "Hotspot"
     },
     {
         "Source":  "网络异常，请稍后重试",
@@ -2509,7 +2509,7 @@
     },
     {
         "Source":  "键鼠共享",
-        "Translation":  "Keyboard and mouse sharing"
+        "Translation":  "Peripherals"
     },
     {
         "Source":  "键鼠共享连接失败，请确认电脑和平板的蓝牙和WLAN是否正常开启并在连接范围内",
