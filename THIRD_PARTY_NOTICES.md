@@ -4,10 +4,13 @@
 
 The native-layer patching technique in `scripts/` (PRI resource patching via
 `makepri`, the `SetThreadUILanguage` assembly injection via Mono.Cecil, the
-UTF-16 native string replacement, the clipboard resource patcher, and the
-keyboard-backlight OSD image redraw) is adapted from
+UTF-16 native string replacement, and the clipboard resource patcher) is
+adapted from
 [yoursAnthony/XiaomiPCManager-Locale-Patch](https://github.com/yoursAnthony/XiaomiPCManager-Locale-Patch),
-Copyright (c) yoursAnthony, licensed under the MIT License.
+Copyright (c) yoursAnthony, licensed under the MIT License. Their original
+version also redrew the keyboard-backlight OSD artwork with System.Drawing;
+this repository instead swaps every themed OSD image to the English artwork
+that already ships inside the app.
 
 The `translations/pri-en.json` and `translations/clipboard-en.json`
 dictionaries originate from that project as well.

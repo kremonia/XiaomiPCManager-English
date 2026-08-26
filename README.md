@@ -13,11 +13,12 @@ The Chinese-market build contains **no English resources at all**: it ignores th
 | Area | How |
 |---|---|
 | Main window, settings, toolbox, drivers, feedback, app store, AI Search (~1,600 string literals) | WebView2 JS bundles, patched with a full zh→en dictionary |
+| Hotkey OSD artwork — performance modes (Fn+K), mic mute (F4), keyboard backlight (F10), and every other themed overlay (1,462 images) | Swapped to Xiaomi's own English artwork that already ships inside the app |
 | Native shell strings (dialogs, menus, notifications, ~1,400 strings) | WinUI `.pri` resource files, rebuilt with `makepri` |
 | Tray menu & tooltip (AI search, screenshot, clipboard, calculator, notepad, task manager, settings, exit) | `.pri` resources + `小米电脑管家` → `Xiaomi` in `MiSmartShareDLL.dll` |
 | Cross-device clipboard app (menus, labels) | .NET resources + IL strings in `PcClipboard.exe` |
 | Update dialogs (unreadable `????` changelog on non-Chinese Windows) | Replaced with a localized notice |
-| Keyboard-backlight "Auto" OSD artwork (34 images, all scales) | Redrawn with System.Drawing |
+| Keyboard-backlight OSD artwork (levels 0–10 + Auto, all scales) | Swapped to Xiaomi's own English artwork |
 
 Still Chinese: the province/city region picker data (only used by China-region services) and native OS-level dialogs. Everything visible day-to-day is English.
 
@@ -52,23 +53,23 @@ Just run `INSTALL-ENGLISH.bat` again. The updater installs a fresh version folde
 
 ```text
 .
-├── INSTALL-ENGLISH.bat        # one-click install (self-elevating)
-├── RESTORE-CHINESE.bat        # one-click rollback
-├── translations.json          # zh→en dictionary for the web UI (1,284 entries)
-├── translations/
-│   ├── pri-en.json            # dictionary for native WinUI shell strings
-│   └── clipboard-en.json      # dictionary for the clipboard app
+├── INSTALL-ENGLISH.bat          # one-click install (self-elevating)
+├── RESTORE-CHINESE.bat          # one-click rollback
+├── translations/                # every dictionary lives here
+│   ├── web-en.json              # zh→en dictionary for the web UI
+│   ├── pri-en.json              # dictionary for native WinUI shell strings
+│   └── clipboard-en.json        # dictionary for the clipboard app
 ├── scripts/
-│   ├── Install.ps1            # orchestrator: detect → back up → patch → verify
-│   ├── Restore.ps1            # rollback
-│   ├── Patch-Web.ps1          # web bundle patcher (uses WebBundlePatcher.cs)
-│   ├── WebBundlePatcher.cs    # JS tokenizer + literal translator
-│   ├── Patch-Pri.ps1          # zh-CN candidate replacement in PRI dumps
-│   ├── Patch-Assembly.ps1     # SetThreadUILanguage injection + update dialogs
-│   ├── Patch-NativeString.ps1 # UTF-16 string swap (tray tooltip)
-│   ├── Patch-Clipboard.ps1    # clipboard .NET resources + IL strings
-│   ├── Patch-OsdImages.ps1    # keyboard-backlight OSD artwork redraw
-│   └── priconfig.xml          # makepri rebuild configuration
+│   ├── Install.ps1              # orchestrator: detect → back up → patch → verify
+│   ├── Restore.ps1              # rollback
+│   ├── Patch-Web.ps1            # web bundle patcher (uses WebBundlePatcher.cs)
+│   ├── WebBundlePatcher.cs      # JS tokenizer + literal translator
+│   ├── Patch-Pri.ps1            # zh-CN candidate replacement in PRI dumps
+│   ├── Patch-Assembly.ps1       # SetThreadUILanguage injection + update dialogs
+│   ├── Patch-NativeString.ps1   # UTF-16 string swap (tray tooltip)
+│   ├── Patch-Clipboard.ps1      # clipboard .NET resources + IL strings
+│   ├── Patch-OsdEnglish.ps1     # OSD artwork swap to Xiaomi's English images
+│   └── priconfig.xml            # makepri rebuild configuration
 └── THIRD_PARTY_NOTICES.md
 ```
 

@@ -16,7 +16,6 @@ $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path -Parent $PSScriptRoot
 
 $updateMessage = 'A newer version is available. Reinstall the English patch after updating.'
-$osdAutoText = 'Auto'
 # Tray tooltip source text: 小米电脑管家 (built from char codes so this script
 # is immune to PowerShell 5.1 reading a BOM-less file with the wrong codepage.)
 $trayNameZh = -join @([char]0x5C0F, [char]0x7C73, [char]0x7535, [char]0x8111, [char]0x7BA1, [char]0x5BB6)
@@ -33,7 +32,7 @@ $priMaps = @{
     'PcControlCenter.pri'             = 'PcControlCenter'
     'Microsoft.UI.Xaml.Controls.pri'  = 'Microsoft.WindowsAppRuntime.1.4'
 }
-$webDictionary = Join-Path $repoRoot 'translations.json'
+$webDictionary = Join-Path $repoRoot 'translations\web-en.json'
 $priDictionary = Join-Path $repoRoot 'translations\pri-en.json'
 $clipboardDictionary = Join-Path $repoRoot 'translations\clipboard-en.json'
 
@@ -96,7 +95,8 @@ if (Test-Path -LiteralPath $searchDir -PathType Container) {
 $osdImages = @()
 $osdDir = Join-Path $AppDirectory 'res\Image'
 if (Test-Path -LiteralPath $osdDir -PathType Container) {
-    $osdImages = @(Get-ChildItem -LiteralPath $osdDir -File -Filter 'KeyboardLightAuto_*.png' |
+    $osdImages = @(Get-ChildItem -LiteralPath $osdDir -File |
+        Where-Object { $_.Name -match '_(Dark|Light)(@\d+)?\.png$' } |
         ForEach-Object { 'res\Image\' + $_.Name })
 }
 
@@ -234,12 +234,10 @@ Invoke-Step 'clipboard' {
     $builtFiles['PcClipboard\PcClipboard.exe'] = (Join-Path $buildRoot 'PcClipboard\PcClipboard.exe')
 }
 
-$osdFont = Join-Path $AppDirectory 'Assets\font\MiSans-Medium.ttf'
 Invoke-Step 'osd images' {
-    & (Join-Path $PSScriptRoot 'Patch-OsdImages.ps1') `
-        -InputDirectory (Join-Path $backupRoot 'res\Image') `
-        -OutputDirectory (Join-Path $buildRoot 'res\Image') `
-        -FontPath $osdFont -Text $osdAutoText
+    & (Join-Path $PSScriptRoot 'Patch-OsdEnglish.ps1') `
+        -InputDirectory (Join-Path $AppDirectory 'res\Image') `
+        -OutputDirectory (Join-Path $buildRoot 'res\Image')
     Get-ChildItem -LiteralPath (Join-Path $buildRoot 'res\Image') -File |
         ForEach-Object { $builtFiles['res\Image\' + $_.Name] = $_.FullName }
 }
