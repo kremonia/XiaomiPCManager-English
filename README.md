@@ -4,6 +4,8 @@
 ![Platform](https://img.shields.io/badge/platform-Windows_10%2F11-0078D6)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+![Main_Screen](screenshots/Main_Screen.png)
+
 **Trying to change Xiaomi PC Manager to English?** There is no language setting for it — this project is the workaround: a turn-key English translation patch for **小米电脑管家 (Xiaomi PC Manager)**, Xiaomi's PC companion app for its laptops, tablets and phones.
 
 The Chinese-market build contains **no English resources at all**: it ignores the Windows display language, exposes no language setting, and there is no official English version or international download. This patch rewrites the app's Chinese UI text — both in its web-based screens and in its native Windows shell — **in place, on your own installation**. One click to install, one click to roll back, and it is not pinned to a specific app build.
@@ -77,6 +79,19 @@ Just run `INSTALL-ENGLISH.bat` again. The updater installs a fresh version folde
 ```
 
 No Xiaomi code is redistributed — the scripts and dictionaries are applied locally against your own installation. The one exception is `icons/osd/`, which ships hand-edited English OSD artwork derived from Xiaomi's icons (see the note in that folder); deleting that folder simply falls back to the programmatic redraw.
+
+## Screenshots
+
+<details>
+<summary>Expand</summary>
+
+![Home](/screenshots/Home_Screen.png)
+![Toolbox](/screenshots/Toolbox_Screen.png)
+![Help](/screenshots/Help_Screen.png)
+![Settings](/screenshots/Settings_Screen.png)
+![OSD](/screenshots/OSD.png)
+
+</details>
 
 ## FAQ
 
