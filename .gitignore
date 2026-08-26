@@ -1,0 +1,15 @@
+# Original-file backups made by the installer
+*.zh-CN.bak
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
