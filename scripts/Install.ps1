@@ -235,7 +235,7 @@ Invoke-Step 'clipboard' {
 }
 
 Invoke-Step 'osd images' {
-    $masterDir = Join-Path $repoRoot 'artwork\osd'
+    $masterDir = Join-Path $repoRoot 'icons\osd'
     $osdArgs = @{
         InputDirectory  = (Join-Path $backupRoot 'res\Image')
         OutputDirectory = (Join-Path $buildRoot 'res\Image')

@@ -59,6 +59,9 @@ Just run `INSTALL-ENGLISH.bat` again. The updater installs a fresh version folde
 │   ├── web-en.json              # zh→en dictionary for the web UI
 │   ├── pri-en.json              # dictionary for native WinUI shell strings
 │   └── clipboard-en.json        # dictionary for the clipboard app
+├── icons/
+│   ├── osd/                     # hand-polished 800×800 English OSD masters
+│   └── sources/                 # Photoshop working files (.psd)
 ├── scripts/
 │   ├── Install.ps1              # orchestrator: detect → back up → patch → verify
 │   ├── Restore.ps1              # rollback
@@ -73,7 +76,7 @@ Just run `INSTALL-ENGLISH.bat` again. The updater installs a fresh version folde
 └── THIRD_PARTY_NOTICES.md
 ```
 
-No Xiaomi code is redistributed — the repository contains only scripts and dictionaries; everything is applied locally against your own installation.
+No Xiaomi code is redistributed — the scripts and dictionaries are applied locally against your own installation. The one exception is `icons/osd/`, which ships hand-edited English OSD artwork derived from Xiaomi's icons (see the note in that folder); deleting that folder simply falls back to the programmatic redraw.
 
 ## FAQ
 
