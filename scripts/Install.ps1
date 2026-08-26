@@ -235,10 +235,14 @@ Invoke-Step 'clipboard' {
 }
 
 Invoke-Step 'osd images' {
-    & (Join-Path $PSScriptRoot 'Patch-OsdEnglish.ps1') `
-        -InputDirectory (Join-Path $backupRoot 'res\Image') `
-        -OutputDirectory (Join-Path $buildRoot 'res\Image') `
-        -FontPath (Join-Path $AppDirectory 'Assets\font\MiSans-Medium.ttf')
+    $masterDir = Join-Path $repoRoot 'artwork\osd'
+    $osdArgs = @{
+        InputDirectory  = (Join-Path $backupRoot 'res\Image')
+        OutputDirectory = (Join-Path $buildRoot 'res\Image')
+        FontPath        = (Join-Path $AppDirectory 'Assets\font\MiSans-Medium.ttf')
+    }
+    if (Test-Path -LiteralPath $masterDir -PathType Container) { $osdArgs.MasterDirectory = $masterDir }
+    & (Join-Path $PSScriptRoot 'Patch-OsdEnglish.ps1') @osdArgs
     Get-ChildItem -LiteralPath (Join-Path $buildRoot 'res\Image') -File |
         ForEach-Object { $builtFiles['res\Image\' + $_.Name] = $_.FullName }
 }

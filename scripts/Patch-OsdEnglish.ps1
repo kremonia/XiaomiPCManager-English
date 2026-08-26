@@ -13,7 +13,12 @@
 param(
     [Parameter(Mandatory = $true)][string]$InputDirectory,
     [Parameter(Mandatory = $true)][string]$OutputDirectory,
-    [Parameter(Mandatory = $true)][string]$FontPath
+    [Parameter(Mandatory = $true)][string]$FontPath,
+    # Optional directory of edited 800x800 masters (Base_Dark.png / Base_Light.png).
+    # When a master is present it replaces BOTH the sibling swap and the
+    # redraw: every size is generated from the master by high-quality
+    # downscale, which is how the original @scale set was produced.
+    [string]$MasterDirectory
 )
 
 $ErrorActionPreference = 'Stop'
@@ -56,6 +61,7 @@ $fonts.AddFontFile($FontPath)
 if ($fonts.Families.Count -lt 1) { throw "Unable to load the OSD font: $FontPath" }
 $family = $fonts.Families[0]
 $swapped = 0
+$fromMaster = 0
 $redrawn = 0
 $skipped = New-Object 'Collections.Generic.List[string]'
 try {
@@ -68,6 +74,27 @@ try {
 
         $enSibling = Join-Path $InputDirectory ($base + '_En_' + $theme + $scale + '.png')
         $output = Join-Path $OutputDirectory $file.Name
+
+        $masterPath = if ($MasterDirectory) { Join-Path $MasterDirectory ($base + '_' + $theme + '.png') } else { $null }
+        if ($masterPath -and (Test-Path -LiteralPath $masterPath -PathType Leaf)) {
+            $master = New-Object Drawing.Bitmap($masterPath)
+            $reference = New-Object Drawing.Bitmap($file.FullName)
+            try {
+                $resized = New-Object Drawing.Bitmap([int]$reference.Width, [int]$reference.Height, [System.Drawing.Imaging.PixelFormat]::Format32bppArgb)
+                try {
+                    $g = [Drawing.Graphics]::FromImage($resized)
+                    try {
+                        $g.InterpolationMode = [System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic
+                        $g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::HighQuality
+                        $g.PixelOffsetMode = [System.Drawing.Drawing2D.PixelOffsetMode]::HighQuality
+                        $g.DrawImage($master, 0, 0, $resized.Width, $resized.Height)
+                    } finally { $g.Dispose() }
+                    $resized.Save($output, [System.Drawing.Imaging.ImageFormat]::Png)
+                    $fromMaster += 1
+                } finally { $resized.Dispose() }
+            } finally { $master.Dispose(); $reference.Dispose() }
+            continue
+        }
         if (Test-Path -LiteralPath $enSibling -PathType Leaf) {
             Copy-Item -LiteralPath $enSibling -Destination $output -Force
             $swapped += 1
@@ -148,9 +175,9 @@ try {
     }
 } finally { $fonts.Dispose() }
 
-if ($swapped -eq 0 -and $redrawn -eq 0) { throw 'No OSD image could be localized.' }
+if ($swapped -eq 0 -and $redrawn -eq 0 -and $fromMaster -eq 0) { throw 'No OSD image could be localized.' }
 if ($skipped.Count -gt 0) {
     Write-Output ("WARN: {0} themed OSD image(s) skipped, e.g.: {1}" -f `
         $skipped.Count, (($skipped | Select-Object -First 8) -join ', '))
 }
-Write-Output "OSD images: $swapped swapped to English siblings, $redrawn redrawn with English labels: $OutputDirectory"
+Write-Output "OSD images: $fromMaster generated from masters, $swapped swapped to English siblings, $redrawn redrawn with English labels: $OutputDirectory"
