@@ -4,9 +4,9 @@
 ![Platform](https://img.shields.io/badge/platform-Windows_10%2F11-0078D6)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-An unofficial English translation patch for **小米电脑管家 (Xiaomi PC Manager)** — Xiaomi's PC companion app for its laptops, tablets and phones.
+**Trying to change Xiaomi PC Manager to English?** There is no language setting for it — this project is the workaround: an unofficial English translation patch for **小米电脑管家 (Xiaomi PC Manager)**, Xiaomi's PC companion app for its laptops, tablets and phones.
 
-The Chinese-market build contains **no English resources at all**: it ignores the Windows display language, exposes no language setting, and there is no international build to download. This patch swaps the app's Chinese UI text for English by replacing the strings inside its web-based UI bundles.
+The Chinese-market build contains **no English resources at all**: it ignores the Windows display language, exposes no language setting, and there is no official English version or international download. This patch swaps the app's Chinese UI text for English by replacing the strings inside its web-based UI bundles — one click to install, one click to roll back.
 
 ## What gets translated
 
@@ -80,6 +80,20 @@ The updater installs a fresh version folder with Chinese files, which overwrites
         ├── index.js
         └── index-legacy.js
 ```
+
+## FAQ
+
+**Is there an official English version of Xiaomi PC Manager?**
+No. Xiaomi distributes this app only in China. It has no language option and ignores the Windows display language, so an English UI is only possible with a patch like this one.
+
+**Can I switch back to Chinese?**
+Yes — run `RESTORE-CHINESE.bat` at any time. The installer keeps backups of every original file it replaces.
+
+**Does it work on Windows 10 as well as Windows 11?**
+Yes, both are supported (the app itself renders its UI through WebView2).
+
+**The app updated itself and Chinese came back — what now?**
+Re-apply the patch: see [After an app update](#after-an-app-update). The `translations.json` dictionary makes regenerating the patched bundles straightforward.
 
 ## Disclaimer
 
