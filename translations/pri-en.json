@@ -1,0 +1,2638 @@
+[
+    {
+        "Source":  " · 在视频通话的应用中点击选择摄像头，直接选中小米手机即可使用。",
+        "Translation":  "· Click to select the camera in the video call application, and directly select the Xiaomi phone to use it."
+    },
+    {
+        "Source":  " · 您可在小米手机设置中关闭此功能。",
+        "Translation":  " · You can turn off this feature in Xiaomi phone settings."
+    },
+    {
+        "Source":  " · 首次使用需要您在手机上同意授权，后续即可直接调用。",
+        "Translation":  " · The first time you use it, you need to agree to the authorization on your mobile phone, and you can call it directly later."
+    },
+    {
+        "Source":  "\"的设置 \u003e 隐私与安全 \u003e 互联权限，授权屏幕权限后使用",
+        "Translation":  "\"Settings \u003e Privacy and Security \u003e Internet Permissions, use it after authorizing screen permissions"
+    },
+    {
+        "Source":  "%，建议开启省电模式，开启后可继续使用",
+        "Translation":  "%, it is recommended to turn on the power saving mode, you can continue to use it after turning it on"
+    },
+    {
+        "Source":  "%1!s! %2!s! %3!s!",
+        "Translation":  "%1!s! %2!s! %3!s!"
+    },
+    {
+        "Source":  "%1!s!, %2!s!",
+        "Translation":  "%1!s!, %2!s!"
+    },
+    {
+        "Source":  "%1!s!, %2!u! %3!s!",
+        "Translation":  "%1!s!, %2!u! %3!s!"
+    },
+    {
+        "Source":  "%1!s!，%2!u! 个项目",
+        "Translation":  "%1!s!, %2!u! items"
+    },
+    {
+        "Source":  "%1!s!，图标",
+        "Translation":  "%1!s!, icon"
+    },
+    {
+        "Source":  "%1!s!，色调 %2!u!，饱和度 %3!u!，亮度 %4!u!",
+        "Translation":  "%1!s!, Hue %2!u!, Saturation %3!u!, Brightness %4!u!"
+    },
+    {
+        "Source":  "%1!u!",
+        "Translation":  "%1!u!"
+    },
+    {
+        "Source":  "%1!u!%% 不透明度",
+        "Translation":  "%1!u!%% Opacity"
+    },
+    {
+        "Source":  "%1!u!，%2!s!",
+        "Translation":  "%1!u!，%2!s!"
+    },
+    {
+        "Source":  "/",
+        "Translation":  "/"
+    },
+    {
+        "Source":  "{0}正在使用{1}，需先断开后再试",
+        "Translation":  "{0} is using {1}, please disconnect and try again."
+    },
+    {
+        "Source":  "“成功”图标",
+        "Translation":  "\"success\" icon"
+    },
+    {
+        "Source":  "“警告”图标",
+        "Translation":  "Warning icon"
+    },
+    {
+        "Source":  "”的个人热点，可在手机个人热点页面设置单次热点流量限额",
+        "Translation":  "\"Personal hotspot, you can set a single hotspot traffic limit on the mobile phone personal hotspot page"
+    },
+    {
+        "Source":  "”的投屏码",
+        "Translation":  "” cast screen code"
+    },
+    {
+        "Source":  "”的热点",
+        "Translation":  "\"Hot spots"
+    },
+    {
+        "Source":  "1.在底部托盘或控制中心可找到并打开全新剪贴板，支持查看本机及附近设备复制内容并粘贴使用\n2.剪贴板支持复制粘贴文字、图文、图片、文件等多种类型的内容",
+        "Translation":  "1. You can find and open the new clipboard in the bottom tray or control center, which supports copying and pasting content on this machine and nearby devices.\n2. The clipboard supports copying and pasting text, graphics, pictures, files and other types of content."
+    },
+    {
+        "Source":  "10分钟",
+        "Translation":  "10 minutes"
+    },
+    {
+        "Source":  "1小时",
+        "Translation":  "1 hour"
+    },
+    {
+        "Source":  "2D 滑块",
+        "Translation":  "2D slider"
+    },
+    {
+        "Source":  "2小时",
+        "Translation":  "2 hours"
+    },
+    {
+        "Source":  "30分钟",
+        "Translation":  "30 minutes"
+    },
+    {
+        "Source":  "360度拾取多人声音，远距离收音，对方听的更清楚",
+        "Translation":  "360-degree pickup of multiple people’s voices, long-distance reception, so the other party can hear it more clearly"
+    },
+    {
+        "Source":  "A",
+        "Translation":  "A"
+    },
+    {
+        "Source":  "AI文件搜索",
+        "Translation":  "AI file search"
+    },
+    {
+        "Source":  "AMD显卡未就绪",
+        "Translation":  "AMD graphics card not ready"
+    },
+    {
+        "Source":  "B",
+        "Translation":  "B"
+    },
+    {
+        "Source":  "C",
+        "Translation":  "C"
+    },
+    {
+        "Source":  "HSV",
+        "Translation":  "HSV"
+    },
+    {
+        "Source":  "I",
+        "Translation":  "I"
+    },
+    {
+        "Source":  "MB",
+        "Translation":  "MB"
+    },
+    {
+        "Source":  "NavigationViewItem",
+        "Translation":  "NavigationViewItem"
+    },
+    {
+        "Source":  "Pad正在浏览",
+        "Translation":  "Pad is browsing"
+    },
+    {
+        "Source":  "ProgressRing",
+        "Translation":  "ProgressRing"
+    },
+    {
+        "Source":  "RGB",
+        "Translation":  "RGB"
+    },
+    {
+        "Source":  "RGB 十六进制",
+        "Translation":  "RGB hex"
+    },
+    {
+        "Source":  "U",
+        "Translation":  "U"
+    },
+    {
+        "Source":  "V",
+        "Translation":  "V"
+    },
+    {
+        "Source":  "Wi-Fi 模块未开启",
+        "Translation":  "Wi-Fi module is not turned on"
+    },
+    {
+        "Source":  "WinUIDesktopWin32WindowClass",
+        "Translation":  "WinUIDesktopWin32WindowClass"
+    },
+    {
+        "Source":  "X",
+        "Translation":  "X"
+    },
+    {
+        "Source":  "Y",
+        "Translation":  "Y"
+    },
+    {
+        "Source":  "Z",
+        "Translation":  "Z"
+    },
+    {
+        "Source":  "上",
+        "Translation":  "on"
+    },
+    {
+        "Source":  "上一页",
+        "Translation":  "Previous page"
+    },
+    {
+        "Source":  "上车后，若本机无网络，且汽车热点已开启，自动连接同账号汽车热点",
+        "Translation":  "After getting in the car, if there is no network in the machine and the car hotspot is turned on, it will automatically connect to the car hotspot of the same account."
+    },
+    {
+        "Source":  "下",
+        "Translation":  "down"
+    },
+    {
+        "Source":  "下一页",
+        "Translation":  "Next page"
+    },
+    {
+        "Source":  "下划线",
+        "Translation":  "Underline"
+    },
+    {
+        "Source":  "下次自动连接",
+        "Translation":  "Automatically connect next time"
+    },
+    {
+        "Source":  "下次自动连接：附近有同账号无网设备需要联网时，自动开启手机热点并连接（可在手机网络协同设置中关闭）",
+        "Translation":  "Automatically connect next time: When there is a nearby non-network device with the same account that needs to connect to the Internet, the mobile phone hotspot will be automatically turned on and connected (can be turned off in the mobile network collaboration settings)"
+    },
+    {
+        "Source":  "下载安装",
+        "Translation":  "Download and install"
+    },
+    {
+        "Source":  "下载并安装 WebView2 运行时",
+        "Translation":  "Download and install the WebView2 runtime"
+    },
+    {
+        "Source":  "下载应用以获得更好体验",
+        "Translation":  "Download the app for a better experience"
+    },
+    {
+        "Source":  "下载应用宝以获得更好的接力体验",
+        "Translation":  "Download the app for a better relay experience"
+    },
+    {
+        "Source":  "下载隐私政策PDF",
+        "Translation":  "Download Privacy Policy PDF"
+    },
+    {
+        "Source":  "不再提示",
+        "Translation":  "Don\u0027t prompt again"
+    },
+    {
+        "Source":  "不再提示我",
+        "Translation":  "Don\u0027t prompt me again"
+    },
+    {
+        "Source":  "不再提醒",
+        "Translation":  "Don\u0027t remind again"
+    },
+    {
+        "Source":  "不支持外接设备录制，请您移除设备后重试                       ",
+        "Translation":  "Recording with external devices is not supported, please remove the device and try again"
+    },
+    {
+        "Source":  "不透明度",
+        "Translation":  "opacity"
+    },
+    {
+        "Source":  "与其他设备传输文件，需要断开与当前设备的协同状态，是否断开设备连接？",
+        "Translation":  "To transfer files to other devices, you need to disconnect from the current device. Do you want to disconnect the device?"
+    },
+    {
+        "Source":  "与平板共享键鼠",
+        "Translation":  "Share keyboard and mouse with tablet"
+    },
+    {
+        "Source":  "与本机摄像头组合",
+        "Translation":  "Combined with native camera"
+    },
+    {
+        "Source":  "个",
+        "Translation":  "a"
+    },
+    {
+        "Source":  "个文件",
+        "Translation":  "files"
+    },
+    {
+        "Source":  "为保证手机文件安全，建议手机设置锁屏密码，电脑设置PIN或指纹",
+        "Translation":  "To ensure the security of mobile phone files, it is recommended to set a lock screen password on the phone and a PIN or fingerprint on the computer."
+    },
+    {
+        "Source":  "举头望明月，低头思故乡。",
+        "Translation":  "Raise your head to look at the bright moon, lower your head to think about your hometown."
+    },
+    {
+        "Source":  "互传",
+        "Translation":  "mutual transmission"
+    },
+    {
+        "Source":  "互联节能模式已开启",
+        "Translation":  "Internet energy saving mode is turned on"
+    },
+    {
+        "Source":  "人像居中",
+        "Translation":  "Portrait centered"
+    },
+    {
+        "Source":  "仍要开启",
+        "Translation":  "Still want to open"
+    },
+    {
+        "Source":  "从",
+        "Translation":  "from"
+    },
+    {
+        "Source":  "任务已创建",
+        "Translation":  "Task has been created"
+    },
+    {
+        "Source":  "任务管理器",
+        "Translation":  "task manager"
+    },
+    {
+        "Source":  "会议降噪",
+        "Translation":  "Conference noise reduction"
+    },
+    {
+        "Source":  "传输",
+        "Translation":  "transmission"
+    },
+    {
+        "Source":  "传输中断",
+        "Translation":  "Transmission interrupted"
+    },
+    {
+        "Source":  "传输失败",
+        "Translation":  "Transfer failed"
+    },
+    {
+        "Source":  "传输已取消",
+        "Translation":  "Transfer canceled"
+    },
+    {
+        "Source":  "传输已拒绝",
+        "Translation":  "Transfer refused"
+    },
+    {
+        "Source":  "传输遇到问题，请重试",
+        "Translation":  "There was a problem with the transfer, please try again"
+    },
+    {
+        "Source":  "你的设备电量低于20%，狂暴模式耗电较大，建议切换到极速模式使用！",
+        "Translation":  "The power of your device is less than 20%. The violent mode consumes a lot of power. It is recommended to switch to the speed mode!"
+    },
+    {
+        "Source":  "你的设备电量低于30%，狂暴模式功耗较大，建议切换为智能模式使用！",
+        "Translation":  "The power of your device is less than 30%, and the violent mode consumes a lot of power. It is recommended to switch to smart mode!"
+    },
+    {
+        "Source":  "你的设备电量低于70%，狂暴模式耗电较大，建议切换到极速模式使用！",
+        "Translation":  "The power of your device is less than 70%. The violent mode consumes a lot of power. It is recommended to switch to the speed mode!"
+    },
+    {
+        "Source":  "信息图标",
+        "Translation":  "Information icon"
+    },
+    {
+        "Source":  "信息栏",
+        "Translation":  "Information bar"
+    },
+    {
+        "Source":  "信息消息，严重性信息",
+        "Translation":  "information message,severity message"
+    },
+    {
+        "Source":  "信息消息，严重性成功",
+        "Translation":  "Information message, severity success"
+    },
+    {
+        "Source":  "信息消息，严重性警告",
+        "Translation":  "Information message, severity warning"
+    },
+    {
+        "Source":  "信息消息，严重性错误",
+        "Translation":  "Information message, severity error"
+    },
+    {
+        "Source":  "值",
+        "Translation":  "value"
+    },
+    {
+        "Source":  "值 %1!u!",
+        "Translation":  "Value %1!u!"
+    },
+    {
+        "Source":  "值 %1!u! (%2!s!)",
+        "Translation":  "Value %1!u! (%2!s!)"
+    },
+    {
+        "Source":  "值(亮度)",
+        "Translation":  "value(brightness)"
+    },
+    {
+        "Source":  "停止互传",
+        "Translation":  "Stop transferring"
+    },
+    {
+        "Source":  "停止响铃",
+        "Translation":  "stop ringing"
+    },
+    {
+        "Source":  "允许此电脑访问手机文件",
+        "Translation":  "Allow this computer to access phone files"
+    },
+    {
+        "Source":  "充电盒",
+        "Translation":  "Charging box"
+    },
+    {
+        "Source":  "全选",
+        "Translation":  "Select all"
+    },
+    {
+        "Source":  "关闭",
+        "Translation":  "Close"
+    },
+    {
+        "Source":  "关闭导航",
+        "Translation":  "Close navigation"
+    },
+    {
+        "Source":  "关闭标签页",
+        "Translation":  "Close tab"
+    },
+    {
+        "Source":  "关闭选项卡",
+        "Translation":  "Close tab"
+    },
+    {
+        "Source":  "关闭选项卡(Ctrl+F4)",
+        "Translation":  "Close tab (Ctrl+F4)"
+    },
+    {
+        "Source":  "其他互联功能",
+        "Translation":  "Other Internet functions"
+    },
+    {
+        "Source":  "其他人将无法发现你的设备",
+        "Translation":  "Others will not be able to discover your device"
+    },
+    {
+        "Source":  "准备发送",
+        "Translation":  "ready to send"
+    },
+    {
+        "Source":  "准备接收",
+        "Translation":  "ready to receive"
+    },
+    {
+        "Source":  "减少",
+        "Translation":  "reduce"
+    },
+    {
+        "Source":  "分钟",
+        "Translation":  "minutes"
+    },
+    {
+        "Source":  "前往手机开启互联权限",
+        "Translation":  "Go to your mobile phone to enable Internet access"
+    },
+    {
+        "Source":  "前往手机认证",
+        "Translation":  "Go to mobile phone verification"
+    },
+    {
+        "Source":  "前往手机进行授权",
+        "Translation":  "Go to your mobile phone to authorize"
+    },
+    {
+        "Source":  "剪切",
+        "Translation":  "cut"
+    },
+    {
+        "Source":  "剪贴板",
+        "Translation":  "clipboard"
+    },
+    {
+        "Source":  "副屏镜像",
+        "Translation":  "Secondary screen mirroring"
+    },
+    {
+        "Source":  "加粗所选的文本",
+        "Translation":  "Bold selected text"
+    },
+    {
+        "Source":  "加载失败，请重试",
+        "Translation":  "Loading failed, please try again"
+    },
+    {
+        "Source":  "单人语音降噪",
+        "Translation":  "Single person voice noise reduction"
+    },
+    {
+        "Source":  "单击「控制中心」图标，双击图标打开客户端。",
+        "Translation":  "Click the \"Control Center\" icon and double-click the icon to open the client."
+    },
+    {
+        "Source":  "单击搜索",
+        "Translation":  "Click to search"
+    },
+    {
+        "Source":  "去同意",
+        "Translation":  "to agree"
+    },
+    {
+        "Source":  "去管理",
+        "Translation":  "to manage"
+    },
+    {
+        "Source":  "去设置",
+        "Translation":  "Go to settings"
+    },
+    {
+        "Source":  "去验证",
+        "Translation":  "to verify"
+    },
+    {
+        "Source":  "反馈提交失败",
+        "Translation":  "Feedback submission failed"
+    },
+    {
+        "Source":  "反馈提交成功",
+        "Translation":  "Feedback submitted successfully"
+    },
+    {
+        "Source":  "发现新版本：",
+        "Translation":  "New version found: "
+    },
+    {
+        "Source":  "发送",
+        "Translation":  "send"
+    },
+    {
+        "Source":  "发送Payload错误",
+        "Translation":  "Send Payload error"
+    },
+    {
+        "Source":  "发送失败",
+        "Translation":  "Sending failed"
+    },
+    {
+        "Source":  "发送已取消",
+        "Translation":  "Send canceled"
+    },
+    {
+        "Source":  "发送成功",
+        "Translation":  "Sent successfully"
+    },
+    {
+        "Source":  "发送超过200个文件",
+        "Translation":  "Send more than 200 files"
+    },
+    {
+        "Source":  "取消",
+        "Translation":  "Cancel"
+    },
+    {
+        "Source":  "取消({0}s)",
+        "Translation":  "Cancel({0}s)"
+    },
+    {
+        "Source":  "取消传输",
+        "Translation":  "Cancel transfer"
+    },
+    {
+        "Source":  "取消发送?",
+        "Translation":  "Cancel sending?"
+    },
+    {
+        "Source":  "取消录制",
+        "Translation":  "Cancel recording"
+    },
+    {
+        "Source":  "取消所有任务",
+        "Translation":  "Cancel all tasks"
+    },
+    {
+        "Source":  "取消拖动 %1!s!",
+        "Translation":  "Cancel drag %1!s!"
+    },
+    {
+        "Source":  "取消接收",
+        "Translation":  "Cancel reception"
+    },
+    {
+        "Source":  "取消更新",
+        "Translation":  "Cancel update"
+    },
+    {
+        "Source":  "可以在电脑上下载【{0}】以获得更好的接力体验，请问是否下载？",
+        "Translation":  "You can download [{0}] on your computer to get a better relay experience. Do you want to download it?"
+    },
+    {
+        "Source":  "右",
+        "Translation":  "right"
+    },
+    {
+        "Source":  "右上",
+        "Translation":  "upper right"
+    },
+    {
+        "Source":  "右下",
+        "Translation":  "lower right"
+    },
+    {
+        "Source":  "右键菜单交互",
+        "Translation":  "Right-click menu interaction"
+    },
+    {
+        "Source":  "同帐号设备",
+        "Translation":  "Devices with the same account"
+    },
+    {
+        "Source":  "同意",
+        "Translation":  "Agree"
+    },
+    {
+        "Source":  "向",
+        "Translation":  "towards"
+    },
+    {
+        "Source":  "向前滚动选项卡列表",
+        "Translation":  "Scroll forward in tab list"
+    },
+    {
+        "Source":  "向后滚动选项卡列表",
+        "Translation":  "Scroll backward through the tab list"
+    },
+    {
+        "Source":  "向您发送了",
+        "Translation":  "sent you"
+    },
+    {
+        "Source":  "启动失败",
+        "Translation":  "Startup failed"
+    },
+    {
+        "Source":  "启用设备互联",
+        "Translation":  "Enable device interconnection"
+    },
+    {
+        "Source":  "启用跨设备身份认证",
+        "Translation":  "Enable cross-device authentication"
+    },
+    {
+        "Source":  "响铃失败，请重试",
+        "Translation":  "Ring failed, please try again"
+    },
+    {
+        "Source":  "响铃查找",
+        "Translation":  "Ring lookup"
+    },
+    {
+        "Source":  "在{0}上授权使用相机",
+        "Translation":  "Authorize camera use on {0}"
+    },
+    {
+        "Source":  "在当前位置插入剪贴板内容",
+        "Translation":  "Insert clipboard contents at current location"
+    },
+    {
+        "Source":  "坚持使用",
+        "Translation":  "keep using"
+    },
+    {
+        "Source":  "增加",
+        "Translation":  "increase"
+    },
+    {
+        "Source":  "复制",
+        "Translation":  "Copy"
+    },
+    {
+        "Source":  "多人语音降噪",
+        "Translation":  "Multi-person voice noise reduction"
+    },
+    {
+        "Source":  "妙享桌面",
+        "Translation":  "Xiaomi Desktop"
+    },
+    {
+        "Source":  "字幕转录",
+        "Translation":  "Subtitles Transcription"
+    },
+    {
+        "Source":  "存储位置查看",
+        "Translation":  "View storage location"
+    },
+    {
+        "Source":  "存储空间不足，请清理后重新传输",
+        "Translation":  "Insufficient storage space, please clean up and try again."
+    },
+    {
+        "Source":  "安装中",
+        "Translation":  "Installing"
+    },
+    {
+        "Source":  "完成",
+        "Translation":  "Done"
+    },
+    {
+        "Source":  "客户端",
+        "Translation":  "client"
+    },
+    {
+        "Source":  "对方存储空间不足，已停止发送",
+        "Translation":  "The other party has insufficient storage space and has stopped sending."
+    },
+    {
+        "Source":  "对方将无法接收到此文件",
+        "Translation":  "The other party will not be able to receive this file"
+    },
+    {
+        "Source":  "对方已取消互传文件",
+        "Translation":  "The other party has canceled the mutual file transfer"
+    },
+    {
+        "Source":  "对方已拒绝",
+        "Translation":  "The other party has rejected"
+    },
+    {
+        "Source":  "对方已拒绝接收文件，发送停止",
+        "Translation":  "The other party has refused to receive the file and the sending has stopped."
+    },
+    {
+        "Source":  "对方设备正忙",
+        "Translation":  "The other party\u0027s device is busy"
+    },
+    {
+        "Source":  "对端设备热点已开启，请关闭热点重试",
+        "Translation":  "The hotspot of the peer device has been turned on. Please turn off the hotspot and try again."
+    },
+    {
+        "Source":  "寻呼机",
+        "Translation":  "pager"
+    },
+    {
+        "Source":  "将 %1!s! 拖放到 %2!s!",
+        "Translation":  "Drag %1!s! onto %2!s!"
+    },
+    {
+        "Source":  "将 %1!s! 放在 %2!s! 和 %3!s! 的中间",
+        "Translation":  "Place %1!s! between %2!s! and %3!s!"
+    },
+    {
+        "Source":  "将 %1!s! 放在 %2!s! 的前面",
+        "Translation":  "Place %1!s! before %2!s!"
+    },
+    {
+        "Source":  "将 %1!s! 放在 %2!s! 的后面",
+        "Translation":  "Place %1!s! after %2!s!"
+    },
+    {
+        "Source":  "将\"{0}\"作为外接显示器，支持独立窗口显示或App",
+        "Translation":  "Use \"{0}\" as an external monitor to support independent window display or App"
+    },
+    {
+        "Source":  "将小米电脑管家添加至Windows防火墙白名单以启用设备互联功能，是否现在添加？",
+        "Translation":  "Add Xiaomi Computer Manager to the Windows Firewall whitelist to enable device interconnection. Do you want to add it now?"
+    },
+    {
+        "Source":  "将所选内容复制到剪贴板",
+        "Translation":  "Copy selection to clipboard"
+    },
+    {
+        "Source":  "将所选文字设置为倾斜",
+        "Translation":  "Set selected text to italic"
+    },
+    {
+        "Source":  "将文件拖放到此区域即可发送",
+        "Translation":  "Drag and drop files into this area to send"
+    },
+    {
+        "Source":  "将文件放到此处",
+        "Translation":  "drop file here"
+    },
+    {
+        "Source":  "将画面从屏幕{0}侧拖出",
+        "Translation":  "Drag the screen from the {0} side of the screen"
+    },
+    {
+        "Source":  "将鼠标从屏幕{0}侧拖出",
+        "Translation":  "Drag the mouse from the {0} side of the screen"
+    },
+    {
+        "Source":  "小时",
+        "Translation":  "hours"
+    },
+    {
+        "Source":  "小爱同学",
+        "Translation":  "XiaoAI"
+    },
+    {
+        "Source":  "小米云服务连接...",
+        "Translation":  "Xiaomi cloud service connection..."
+    },
+    {
+        "Source":  "小米互传",
+        "Translation":  "Xiaomi Share"
+    },
+    {
+        "Source":  "小米电脑管家",
+        "Translation":  "Xiaomi PC Manager"
+    },
+    {
+        "Source":  "小米电脑管家未开启，无法打开手机应用。",
+        "Translation":  "Xiaomi Computer Manager is not turned on and the mobile application cannot be opened."
+    },
+    {
+        "Source":  "小米电脑管家隐私政策",
+        "Translation":  "Xiaomi Computer Manager Privacy Policy"
+    },
+    {
+        "Source":  "屏幕所有内容均在\"{0}\"上显示",
+        "Translation":  "All contents of the screen are displayed on \"{0}\""
+    },
+    {
+        "Source":  "屏幕方位",
+        "Translation":  "screen orientation"
+    },
+    {
+        "Source":  "工具箱",
+        "Translation":  "Tools"
+    },
+    {
+        "Source":  "左",
+        "Translation":  "left"
+    },
+    {
+        "Source":  "左上",
+        "Translation":  "upper left"
+    },
+    {
+        "Source":  "左下",
+        "Translation":  "lower left"
+    },
+    {
+        "Source":  "已传输",
+        "Translation":  "Transmitted"
+    },
+    {
+        "Source":  "已切换到其他设备",
+        "Translation":  "Switched to other device"
+    },
+    {
+        "Source":  "已取消",
+        "Translation":  "Canceled"
+    },
+    {
+        "Source":  "已取消发送",
+        "Translation":  "Send canceled"
+    },
+    {
+        "Source":  "已向",
+        "Translation":  "Already sent to"
+    },
+    {
+        "Source":  "已复制到剪贴板",
+        "Translation":  "Copied to clipboard"
+    },
+    {
+        "Source":  "已开启省电模式，充电至50%或充满时自动退出",
+        "Translation":  "Power saving mode is turned on and will automatically exit when charging reaches 50% or fully charged."
+    },
+    {
+        "Source":  "已成功传输",
+        "Translation":  "Transferred successfully"
+    },
+    {
+        "Source":  "已暂停",
+        "Translation":  "Suspended"
+    },
+    {
+        "Source":  "已消除信息栏",
+        "Translation":  "Information bar removed"
+    },
+    {
+        "Source":  "已经取消接收文件",
+        "Translation":  "Receiving files has been canceled"
+    },
+    {
+        "Source":  "已自动开启连接“",
+        "Translation":  "The connection has been automatically opened\""
+    },
+    {
+        "Source":  "已自动连接“",
+        "Translation":  "Connected automatically\""
+    },
+    {
+        "Source":  "已超过最大连接数",
+        "Translation":  "Maximum number of connections exceeded"
+    },
+    {
+        "Source":  "已连接",
+        "Translation":  "Connected"
+    },
+    {
+        "Source":  "已连接其他显示设备，请断开其他显示设备后重试。",
+        "Translation":  "Other display devices are connected. Please disconnect the other display devices and try again."
+    },
+    {
+        "Source":  "带有箭头键的 2D 导航",
+        "Translation":  "2D navigation with arrow keys"
+    },
+    {
+        "Source":  "平板端正在使用远程控制，需先断开后再试",
+        "Translation":  "The tablet is using remote control, you need to disconnect it and try again."
+    },
+    {
+        "Source":  "平板驱动加载失败，请稍后重试",
+        "Translation":  "Tablet driver failed to load, please try again later."
+    },
+    {
+        "Source":  "床前明月光，疑是地上霜。",
+        "Translation":  "There was bright moonlight in front of the bed, which was probably due to frost on the ground."
+    },
+    {
+        "Source":  "应用启动异常",
+        "Translation":  "Application startup exception"
+    },
+    {
+        "Source":  "应用已卸载",
+        "Translation":  "App uninstalled"
+    },
+    {
+        "Source":  "应用未安装",
+        "Translation":  "App not installed"
+    },
+    {
+        "Source":  "底",
+        "Translation":  "bottom"
+    },
+    {
+        "Source":  "延后",
+        "Translation":  "postpone"
+    },
+    {
+        "Source":  "建议切换到热点模式",
+        "Translation":  "It is recommended to switch to hotspot mode"
+    },
+    {
+        "Source":  "建议前往手机进行AI搜索服务授权",
+        "Translation":  "It is recommended to go to the mobile phone to authorize the AI search service"
+    },
+    {
+        "Source":  "建议在线上会议遇到环境噪音时开启此功能，以获得更清晰的通话效果。日常播放音乐或观看视频时，请保持该功能关闭，以确保最佳的音频播放质量。",
+        "Translation":  "It is recommended to turn on this function when encountering environmental noise during online meetings to obtain a clearer call effect. Please keep this feature turned off when playing music or watching videos on a daily basis to ensure the best audio playback quality."
+    },
+    {
+        "Source":  "开启WLAN",
+        "Translation":  "Turn on Wi-Fi"
+    },
+    {
+        "Source":  "开启可发现附近设备，体验设备控制与协同功能",
+        "Translation":  "Turn on the ability to discover nearby devices and experience device control and collaboration functions"
+    },
+    {
+        "Source":  "开启后电脑将使用当前连接设备的热点上网，设备互联功能使用会更加流畅，但同时会增加手机/平板耗电",
+        "Translation":  "After turning it on, the computer will use the hotspot of the currently connected device to access the Internet. The device interconnection function will be used more smoothly, but it will also increase the power consumption of the mobile phone/tablet."
+    },
+    {
+        "Source":  "开启智能模式",
+        "Translation":  "Turn on smart mode"
+    },
+    {
+        "Source":  "开启服务",
+        "Translation":  "Start service"
+    },
+    {
+        "Source":  "开启极速模式",
+        "Translation":  "Turn on speed mode"
+    },
+    {
+        "Source":  "开启相关服务进程，确保功能正常使用",
+        "Translation":  "Start relevant service processes to ensure normal use of functions"
+    },
+    {
+        "Source":  "开启省电模式",
+        "Translation":  "Turn on power saving mode"
+    },
+    {
+        "Source":  "开启省电模式后，仅支持连接同一WLAN网络的设备使用设备互联功能。小米互传、耳机快连将无法建立新的连接。",
+        "Translation":  "After turning on the power saving mode, only devices connected to the same WLAN network can use the device interconnection function. Xiaomi mutual transmission and headset quick connection will not be able to establish new connections."
+    },
+    {
+        "Source":  "开始录制",
+        "Translation":  "Start recording"
+    },
+    {
+        "Source":  "开机启动项越多，开机速度越慢",
+        "Translation":  "The more startup items there are at startup, the slower the startup speed will be."
+    },
+    {
+        "Source":  "张",
+        "Translation":  "Zhang"
+    },
+    {
+        "Source":  "当前",
+        "Translation":  "current"
+    },
+    {
+        "Source":  "当前平板系统不支持该功能，请升级至MIUI14及以上版本后重试",
+        "Translation":  "The current tablet system does not support this function. Please upgrade to MIUI14 and above and try again."
+    },
+    {
+        "Source":  "当前应用已添加",
+        "Translation":  "The current application has been added"
+    },
+    {
+        "Source":  "当前应用已设置应用锁，无法跨设备打开",
+        "Translation":  "The current app has an app lock set and cannot be opened across devices."
+    },
+    {
+        "Source":  "当前手机无法连接",
+        "Translation":  "The current mobile phone cannot be connected"
+    },
+    {
+        "Source":  "当前无法与对端建立协同或连接，请检查对端权限后重试。",
+        "Translation":  "Currently, collaboration or connection cannot be established with the peer. Please check the peer\u0027s permissions and try again."
+    },
+    {
+        "Source":  "当前无法接收到协同设备的相机拍摄画面，请检查本机显卡处于可用状态，重启双端设备蓝牙、WLAN 后重试。",
+        "Translation":  "Currently, the camera shot of the collaborative device cannot be received. Please check that the local graphics card is available, restart the Bluetooth and WLAN of the dual-end device and try again."
+    },
+    {
+        "Source":  "当前显卡驱动版本低，是否进行更新",
+        "Translation":  "The current graphics card driver version is low, do you want to update it?"
+    },
+    {
+        "Source":  "当前版本已经是最新版本",
+        "Translation":  "The current version is already the latest version"
+    },
+    {
+        "Source":  "当前网路断开，请检查网络后重试。",
+        "Translation":  "The current network is disconnected, please check the network and try again."
+    },
+    {
+        "Source":  "当前设备不支持",
+        "Translation":  "The current device does not support"
+    },
+    {
+        "Source":  "当前账号切换，请检查账号后重试。",
+        "Translation":  "Current account switching, please check the account and try again."
+    },
+    {
+        "Source":  "当前麦克风异常或处于静音状态，无法录制声纹信息，请您修复后重试",
+        "Translation":  "The current microphone is abnormal or muted and cannot record voiceprint information. Please fix it and try again."
+    },
+    {
+        "Source":  "录制声纹信息",
+        "Translation":  "Record voiceprint information"
+    },
+    {
+        "Source":  "录制声纹后，跟踪拾取录制人的声音，对方听的更清楚",
+        "Translation":  "After recording the voiceprint, the voice of the recording person is tracked and picked up, so that the other party can hear it more clearly."
+    },
+    {
+        "Source":  "录制失败",
+        "Translation":  "Recording failed"
+    },
+    {
+        "Source":  "录制超时，请您重试",
+        "Translation":  "Recording timed out, please try again"
+    },
+    {
+        "Source":  "录音服务不可用，无法录制声纹信息，请您修复后重试",
+        "Translation":  "The recording service is unavailable and the voiceprint information cannot be recorded. Please fix it and try again."
+    },
+    {
+        "Source":  "忙碌",
+        "Translation":  "busy"
+    },
+    {
+        "Source":  "忽略",
+        "Translation":  "ignore"
+    },
+    {
+        "Source":  "恢复",
+        "Translation":  "restore"
+    },
+    {
+        "Source":  "您反馈的",
+        "Translation":  "your feedback"
+    },
+    {
+        "Source":  "您可使用附近相同小米账号的手机摄像头来进行视频通话。",
+        "Translation":  "You can use the camera of a nearby phone with the same Xiaomi account to make a video call."
+    },
+    {
+        "Source":  "您周边的噪音较大，建议您在安静的环境中进行录制",
+        "Translation":  "There is a lot of noise around you, it is recommended that you record in a quiet environment"
+    },
+    {
+        "Source":  "您将取消所有与该设备传输的任务",
+        "Translation":  "You will cancel all transfers to this device"
+    },
+    {
+        "Source":  "您将无法接收到此文件",
+        "Translation":  "You will not be able to receive this file"
+    },
+    {
+        "Source":  "您已开启省电模式，此模式下仅支持连接同一WLAN网络的设备使用设备互联功能。",
+        "Translation":  "You have turned on the power saving mode. In this mode, only devices connected to the same WLAN network can use the device interconnection function."
+    },
+    {
+        "Source":  "您已录制过声纹信息，重新录制将会覆盖已有声纹信息，确定要重新录制吗？",
+        "Translation":  "You have already recorded your voiceprint information. Re-recording will overwrite the existing voiceprint information. Are you sure you want to re-record?"
+    },
+    {
+        "Source":  "您还没有连接无线耳机",
+        "Translation":  "You haven\u0027t connected your wireless headphones yet"
+    },
+    {
+        "Source":  "我的",
+        "Translation":  "mine"
+    },
+    {
+        "Source":  "截屏",
+        "Translation":  "screenshot"
+    },
+    {
+        "Source":  "手机已开启省电模式",
+        "Translation":  "The phone has turned on power saving mode"
+    },
+    {
+        "Source":  "手机拒绝本机访问文件",
+        "Translation":  "Mobile phone denies local access to files"
+    },
+    {
+        "Source":  "手机授权已超时/取消",
+        "Translation":  "Mobile phone authorization has expired/cancelled"
+    },
+    {
+        "Source":  "手机未开启妙享桌面",
+        "Translation":  "Miaoxiang desktop is not turned on on the mobile phone"
+    },
+    {
+        "Source":  "手机未开启跨设备相机",
+        "Translation":  "The cross-device camera is not enabled on the phone"
+    },
+    {
+        "Source":  "手机正在浏览",
+        "Translation":  "Browsing on mobile phone"
+    },
+    {
+        "Source":  "手机状态发生变化，请打开",
+        "Translation":  "The status of your phone has changed, please open"
+    },
+    {
+        "Source":  "手机电量低",
+        "Translation":  "Mobile phone battery is low"
+    },
+    {
+        "Source":  "手机音乐接力播放",
+        "Translation":  "Mobile music relay playback"
+    },
+    {
+        "Source":  "打开",
+        "Translation":  "open"
+    },
+    {
+        "Source":  "打开客户端",
+        "Translation":  "Open client"
+    },
+    {
+        "Source":  "打开导航",
+        "Translation":  "Open navigation"
+    },
+    {
+        "Source":  "打开手机桌面",
+        "Translation":  "Open mobile desktop"
+    },
+    {
+        "Source":  "打开文件失败，请检查文件是否被占用",
+        "Translation":  "Failed to open the file, please check whether the file is occupied"
+    },
+    {
+        "Source":  "打开设备管理器",
+        "Translation":  "Open device manager"
+    },
+    {
+        "Source":  "扩展屏",
+        "Translation":  "Extended screen"
+    },
+    {
+        "Source":  "扩展屏幕到平板",
+        "Translation":  "Extend screen to tablet"
+    },
+    {
+        "Source":  "扩展屏幕到电视",
+        "Translation":  "Extend screen to TV"
+    },
+    {
+        "Source":  "扬声器/耳机降噪",
+        "Translation":  "Speaker/headphone noise reduction"
+    },
+    {
+        "Source":  "扬声器设备无法使用，请修复后重试",
+        "Translation":  "The speaker device cannot be used, please fix it and try again."
+    },
+    {
+        "Source":  "找不到设备？",
+        "Translation":  "Can\u0027t find the device?"
+    },
+    {
+        "Source":  "投屏",
+        "Translation":  "cast screen"
+    },
+    {
+        "Source":  "投屏模式",
+        "Translation":  "Cast screen mode"
+    },
+    {
+        "Source":  "投屏需要停止互传，是否停止",
+        "Translation":  "Screencasting needs to stop mutual transmission. Do you want to stop it?"
+    },
+    {
+        "Source":  "投屏验证",
+        "Translation":  "Screencast verification"
+    },
+    {
+        "Source":  "投影设置",
+        "Translation":  "Projection settings"
+    },
+    {
+        "Source":  "拒接",
+        "Translation":  "Reject"
+    },
+    {
+        "Source":  "拒绝",
+        "Translation":  "reject"
+    },
+    {
+        "Source":  "拖拽文件到设备头像",
+        "Translation":  "Drag and drop files to device avatar"
+    },
+    {
+        "Source":  "拾取屏幕正前方的人声，对方听的更清楚",
+        "Translation":  "Pick up the human voice directly in front of the screen, so the other party can hear it more clearly"
+    },
+    {
+        "Source":  "挂断",
+        "Translation":  "Hang up"
+    },
+    {
+        "Source":  "按 F6 转到新的通知 %1!s!。",
+        "Translation":  "Press F6 to go to the new notification %1!s!."
+    },
+    {
+        "Source":  "按 F6 转到来自 %1!s!、%2!s! 新的通知。",
+        "Translation":  "Press F6 to go to new notifications from %1!s!, %2!s!."
+    },
+    {
+        "Source":  "授权后，本设备可以使用“{0}”的相机，用于拍摄照片和录制视频。",
+        "Translation":  "After authorization, this device can use the camera of \"{0}\" to take photos and record videos."
+    },
+    {
+        "Source":  "接听",
+        "Translation":  "Answer"
+    },
+    {
+        "Source":  "接收",
+        "Translation":  "receive"
+    },
+    {
+        "Source":  "接收取消",
+        "Translation":  "receive cancellation"
+    },
+    {
+        "Source":  "接收失败",
+        "Translation":  "Reception failed"
+    },
+    {
+        "Source":  "接收成功",
+        "Translation":  "Received successfully"
+    },
+    {
+        "Source":  "接收文件夹不可用，更换文件夹后重试",
+        "Translation":  "The receiving folder is unavailable, please change the folder and try again."
+    },
+    {
+        "Source":  "接收文件夹无效或不可用，传输失败",
+        "Translation":  "The receiving folder is invalid or unavailable and the transfer failed."
+    },
+    {
+        "Source":  "控制中心",
+        "Translation":  "Control Center"
+    },
+    {
+        "Source":  "提示",
+        "Translation":  "Tips"
+    },
+    {
+        "Source":  "摄像头协同",
+        "Translation":  "Camera collaboration"
+    },
+    {
+        "Source":  "摄像头暂不可用，点击确定打开设备管理器，确认照相机处于可用状态",
+        "Translation":  "The camera is temporarily unavailable. Click OK to open the Device Manager and confirm that the camera is available."
+    },
+    {
+        "Source":  "摄像机已休眠，请结束休眠后使用",
+        "Translation":  "The camera is in sleep mode. Please use it after ending the sleep mode."
+    },
+    {
+        "Source":  "摄像机正在通话中，暂时无法使用",
+        "Translation":  "The camera is on a call and temporarily unavailable"
+    },
+    {
+        "Source":  "撤回",
+        "Translation":  "Withdraw"
+    },
+    {
+        "Source":  "撤回（ {0} s ）",
+        "Translation":  "Withdraw ( {0} s )"
+    },
+    {
+        "Source":  "撤回同意",
+        "Translation":  "Withdraw consent"
+    },
+    {
+        "Source":  "撤回失败，请稍后重试",
+        "Translation":  "Revocation failed, please try again later"
+    },
+    {
+        "Source":  "撤消",
+        "Translation":  "Undo"
+    },
+    {
+        "Source":  "撤消最近操作",
+        "Translation":  "Undo recent action"
+    },
+    {
+        "Source":  "收到了",
+        "Translation":  "Received"
+    },
+    {
+        "Source":  "收到了超过200个文件",
+        "Translation":  "Over 200 documents received"
+    },
+    {
+        "Source":  "放置 %1!s!",
+        "Translation":  "Place %1!s!"
+    },
+    {
+        "Source":  "整个屏幕",
+        "Translation":  "whole screen"
+    },
+    {
+        "Source":  "文件右键",
+        "Translation":  "Right click on file"
+    },
+    {
+        "Source":  "文件名过长请您修改文件名后重试",
+        "Translation":  "The file name is too long. Please modify the file name and try again."
+    },
+    {
+        "Source":  "文件搜索",
+        "Translation":  "File search"
+    },
+    {
+        "Source":  "文件无法发送",
+        "Translation":  "File cannot be sent"
+    },
+    {
+        "Source":  "文件状态发生变化（如重命名、被删除等），请重新传输",
+        "Translation":  "If the file status changes (such as renamed, deleted, etc.), please retransmit it."
+    },
+    {
+        "Source":  "文件被改变，请重新发送",
+        "Translation":  "The file has been changed, please resend it"
+    },
+    {
+        "Source":  "斜体",
+        "Translation":  "italics"
+    },
+    {
+        "Source":  "断开跨屏合作",
+        "Translation":  "Disconnect cross-screen collaboration"
+    },
+    {
+        "Source":  "无法使用摄像头",
+        "Translation":  "Unable to use camera"
+    },
+    {
+        "Source":  "无法投屏到电视",
+        "Translation":  "Can\u0027t cast to TV"
+    },
+    {
+        "Source":  "无法投屏到电视，AMD显卡被禁用",
+        "Translation":  "Unable to cast to TV, AMD graphics card is disabled"
+    },
+    {
+        "Source":  "无法投屏到电视，Intel显卡被禁用",
+        "Translation":  "Unable to cast to TV, Intel graphics card is disabled"
+    },
+    {
+        "Source":  "无法投屏到电视，热点被占用",
+        "Translation":  "Unable to cast screen to TV, hotspot is occupied"
+    },
+    {
+        "Source":  "无法投屏到电视，请修改显卡设置后重试",
+        "Translation":  "Unable to cast screen to TV, please modify graphics card settings and try again"
+    },
+    {
+        "Source":  "无法投屏到电视，驱动异常",
+        "Translation":  "Unable to cast screen to TV, driver abnormality"
+    },
+    {
+        "Source":  "无法检查更新",
+        "Translation":  "Unable to check for updates"
+    },
+    {
+        "Source":  "无法获取该文件",
+        "Translation":  "Unable to get the file"
+    },
+    {
+        "Source":  "无法连接到平板",
+        "Translation":  "Unable to connect to tablet"
+    },
+    {
+        "Source":  "无法连接到平板，AMD显卡被禁用",
+        "Translation":  "Unable to connect to tablet, AMD graphics card is disabled"
+    },
+    {
+        "Source":  "无法连接到平板，Intel显卡被禁用",
+        "Translation":  "Unable to connect to tablet, Intel graphics is disabled"
+    },
+    {
+        "Source":  "无法连接到平板，请修改显卡设置后重试",
+        "Translation":  "Unable to connect to the tablet, please modify the graphics card settings and try again"
+    },
+    {
+        "Source":  "无法连接到平板，请确认电脑和平板的蓝牙和WLAN是否正常开启并在连接范围内",
+        "Translation":  "Unable to connect to the tablet, please confirm whether the Bluetooth and WLAN of the computer and tablet are turned on normally and within the connection range."
+    },
+    {
+        "Source":  "智能跟踪降噪",
+        "Translation":  "Intelligent tracking and noise reduction"
+    },
+    {
+        "Source":  "暂不支持文件夹的拖拽传输",
+        "Translation":  "Drag-and-drop transfer of folders is not currently supported."
+    },
+    {
+        "Source":  "暂不支持电脑纵向显示模式下与平板互联",
+        "Translation":  "Interconnection with tablets in computer portrait display mode is not currently supported."
+    },
+    {
+        "Source":  "暂不更新",
+        "Translation":  "Not now"
+    },
+    {
+        "Source":  "暂无设备",
+        "Translation":  "No equipment yet"
+    },
+    {
+        "Source":  "更多",
+        "Translation":  "More"
+    },
+    {
+        "Source":  "更多设备",
+        "Translation":  "More devices"
+    },
+    {
+        "Source":  "更多选项",
+        "Translation":  "More options"
+    },
+    {
+        "Source":  "更少",
+        "Translation":  "less"
+    },
+    {
+        "Source":  "更改投屏模式",
+        "Translation":  "Change cast mode"
+    },
+    {
+        "Source":  "更新声纹信息",
+        "Translation":  "Update voiceprint information"
+    },
+    {
+        "Source":  "更新驱动",
+        "Translation":  "Update driver"
+    },
+    {
+        "Source":  "最后一页",
+        "Translation":  "last page"
+    },
+    {
+        "Source":  "最大",
+        "Translation":  "maximum"
+    },
+    {
+        "Source":  "最小",
+        "Translation":  "smallest"
+    },
+    {
+        "Source":  "最近连接过",
+        "Translation":  "Recently connected"
+    },
+    {
+        "Source":  "未检测到合适版本的 Microsoft Edge WebView2 运行时。 ",
+        "Translation":  "An appropriate version of the Microsoft Edge WebView2 runtime was not detected. "
+    },
+    {
+        "Source":  "未登录",
+        "Translation":  "Not logged in"
+    },
+    {
+        "Source":  "未知错误",
+        "Translation":  "unknown error"
+    },
+    {
+        "Source":  "未知错误，请重试",
+        "Translation":  "Unknown error, please try again"
+    },
+    {
+        "Source":  "未设置评分",
+        "Translation":  "No rating set"
+    },
+    {
+        "Source":  "本地相机不可用",
+        "Translation":  "Local camera is not available"
+    },
+    {
+        "Source":  "本地相机初始化失败",
+        "Translation":  "Local camera initialization failed"
+    },
+    {
+        "Source":  "本地驱动加载失败，请检查驱动状态后重试",
+        "Translation":  "The local driver failed to load, please check the driver status and try again."
+    },
+    {
+        "Source":  "本机正在使用其他互联功能，请先断开后再试",
+        "Translation":  "This machine is using other interconnection functions, please disconnect and try again."
+    },
+    {
+        "Source":  "来自",
+        "Translation":  "from"
+    },
+    {
+        "Source":  "查看",
+        "Translation":  "View"
+    },
+    {
+        "Source":  "查看任务列表",
+        "Translation":  "View task list"
+    },
+    {
+        "Source":  "查看帮助",
+        "Translation":  "View help"
+    },
+    {
+        "Source":  "查看接收文件",
+        "Translation":  "View received files"
+    },
+    {
+        "Source":  "查看详情",
+        "Translation":  "View details"
+    },
+    {
+        "Source":  "校对",
+        "Translation":  "Proofreading"
+    },
+    {
+        "Source":  "检测到【{0}】正在使用此应用。通过下载移动应用引擎，同时在电脑上安装【{1}】，获得更好的应用接力体验。",
+        "Translation":  "It was detected that [{0}] is using this application. Get a better application relay experience by downloading the mobile application engine and installing [{1}] on your computer."
+    },
+    {
+        "Source":  "检测到垃圾文件较多，是否立即进行清理",
+        "Translation":  "A lot of junk files have been detected. Do you want to clean them up immediately?"
+    },
+    {
+        "Source":  "检测到您自定义的应用运行异常，无法启动。\n请检查此应用状态，或重新设置按键。",
+        "Translation":  "It is detected that your customized application is running abnormally and cannot be started.\nPlease check the status of this application or reset the keys."
+    },
+    {
+        "Source":  "检测到有其他显示设备接入，若要继续使用协同功能请先断开其他设备的连接后重试",
+        "Translation":  "It is detected that other display devices are connected. If you want to continue using the collaboration function, please disconnect the other devices and try again."
+    },
+    {
+        "Source":  "检测到有其他显示设备接入，若要继续使用投屏功能请先断开其他设备的连接后重试",
+        "Translation":  "It is detected that other display devices are connected. If you want to continue using the screen mirroring function, please disconnect the other devices and try again."
+    },
+    {
+        "Source":  "检测到有新增的开机启动项",
+        "Translation":  "New startup items detected"
+    },
+    {
+        "Source":  "检测到有驱动更新，正在帮您升级驱动以优化使用体验",
+        "Translation":  "A driver update has been detected and we are helping you upgrade the driver to optimize your experience."
+    },
+    {
+        "Source":  "检测到非原厂电池",
+        "Translation":  "Non-original battery detected"
+    },
+    {
+        "Source":  "检测到非原厂电池，为保证设备稳定性，已为您调整充电速度。",
+        "Translation":  "A non-original battery has been detected. To ensure device stability, the charging speed has been adjusted for you."
+    },
+    {
+        "Source":  "检测到驱动更新",
+        "Translation":  "Driver update detected"
+    },
+    {
+        "Source":  "正在",
+        "Translation":  "are"
+    },
+    {
+        "Source":  "正在与平板共享键鼠",
+        "Translation":  "Sharing keyboard and mouse with tablet"
+    },
+    {
+        "Source":  "正在传输",
+        "Translation":  "Transmitting"
+    },
+    {
+        "Source":  "正在传输...",
+        "Translation":  "Transmitting..."
+    },
+    {
+        "Source":  "正在使用其他互联业务，请结束后再试",
+        "Translation":  "Currently using other Internet services, please try again after finishing"
+    },
+    {
+        "Source":  "正在使用手机桌面",
+        "Translation":  "Using mobile desktop"
+    },
+    {
+        "Source":  "正在准备文件...",
+        "Translation":  "Preparing files..."
+    },
+    {
+        "Source":  "正在向",
+        "Translation":  "is heading to"
+    },
+    {
+        "Source":  "正在扩展屏幕到平板",
+        "Translation":  "Expanding screen to tablet"
+    },
+    {
+        "Source":  "正在扩展屏幕到电视",
+        "Translation":  "Extending screen to TV"
+    },
+    {
+        "Source":  "正在接收",
+        "Translation":  "Receiving"
+    },
+    {
+        "Source":  "正在接收文件，来自",
+        "Translation":  "Receiving files from"
+    },
+    {
+        "Source":  "正在搜索支持的相关设备",
+        "Translation":  "Searching for supported related devices"
+    },
+    {
+        "Source":  "正在电脑上使用",
+        "Translation":  "Currently using on computer"
+    },
+    {
+        "Source":  "正在连接",
+        "Translation":  "Connecting"
+    },
+    {
+        "Source":  "正在连接...",
+        "Translation":  "Connecting..."
+    },
+    {
+        "Source":  "正在连接中...",
+        "Translation":  "Connecting..."
+    },
+    {
+        "Source":  "正在通话中 |",
+        "Translation":  "Calling |"
+    },
+    {
+        "Source":  "正在通话中，请稍后再试",
+        "Translation":  "Call in progress, please try again later"
+    },
+    {
+        "Source":  "正在通过",
+        "Translation":  "Passing"
+    },
+    {
+        "Source":  "正在镜像屏幕到平板",
+        "Translation":  "Mirroring screen to tablet"
+    },
+    {
+        "Source":  "正在镜像屏幕到电视",
+        "Translation":  "Mirroring screen to TV"
+    },
+    {
+        "Source":  "正在镜像窗口或App到电视",
+        "Translation":  "Mirroring window or app to TV"
+    },
+    {
+        "Source":  "添加",
+        "Translation":  "add"
+    },
+    {
+        "Source":  "添加文件",
+        "Translation":  "Add files"
+    },
+    {
+        "Source":  "添加新标签页",
+        "Translation":  "Add new tab"
+    },
+    {
+        "Source":  "源文件已删除",
+        "Translation":  "Source file deleted"
+    },
+    {
+        "Source":  "点击“开始录制”按钮后，请持续朗读以下文字直到录制完成：",
+        "Translation":  "After clicking the \"Start Recording\" button, please continue reading the following text until the recording is completed:"
+    },
+    {
+        "Source":  "点击图标可呼出控制中心",
+        "Translation":  "Click the icon to call up the control center"
+    },
+    {
+        "Source":  "狂暴模式需要在连接电源时使用，性能模式已切换至均衡模式",
+        "Translation":  "Rage mode needs to be used while connected to power, Performance mode has been switched to Balanced mode"
+    },
+    {
+        "Source":  "狂暴模式需要在连接电源时使用，性能模式已切换至智能模式",
+        "Translation":  "Rage mode needs to be used when connected to power, and performance mode has been switched to smart mode"
+    },
+    {
+        "Source":  "用户",
+        "Translation":  "User"
+    },
+    {
+        "Source":  "电池电量提醒",
+        "Translation":  "Battery level reminder"
+    },
+    {
+        "Source":  "电源已断开",
+        "Translation":  "Power is disconnected"
+    },
+    {
+        "Source":  "电脑助手",
+        "Translation":  "computer assistant"
+    },
+    {
+        "Source":  "电视投屏功能需打开 Wi-Fi 和蓝牙才能使用",
+        "Translation":  "The TV screen mirroring function requires Wi-Fi and Bluetooth to be turned on to use"
+    },
+    {
+        "Source":  "电话接力提示",
+        "Translation":  "Telephone relay tips"
+    },
+    {
+        "Source":  "电话正在电脑上接听",
+        "Translation":  "The call is being answered on the computer"
+    },
+    {
+        "Source":  "电量低于",
+        "Translation":  "Battery is lower than"
+    },
+    {
+        "Source":  "痕迹导航栏项",
+        "Translation":  "Breadcrumb bar item"
+    },
+    {
+        "Source":  "的全局搜索-搜索设置-设置项，同意\"AI搜索\"权限",
+        "Translation":  "Global Search-Search Settings-Settings, agree to the \"AI Search\" permission"
+    },
+    {
+        "Source":  "的设置 \u003e 隐私与安全 \u003e 互联权限，授权文件权限后使用",
+        "Translation":  "Settings \u003e Privacy and Security \u003e Internet Permissions, use after granting file permissions"
+    },
+    {
+        "Source":  "相机协同异常",
+        "Translation":  "Camera coordination abnormality"
+    },
+    {
+        "Source":  "相机正在电脑上使用",
+        "Translation":  "The camera is being used on the computer"
+    },
+    {
+        "Source":  "相机连接失败",
+        "Translation":  "Camera connection failed"
+    },
+    {
+        "Source":  "省电模式已开启",
+        "Translation":  "Power saving mode is on"
+    },
+    {
+        "Source":  "知道了",
+        "Translation":  "Got it"
+    },
+    {
+        "Source":  "确定",
+        "Translation":  "OK"
+    },
+    {
+        "Source":  "确认",
+        "Translation":  "Confirm"
+    },
+    {
+        "Source":  "磁盘空间不足，建议立即清理",
+        "Translation":  "Insufficient disk space, it is recommended to clean up immediately"
+    },
+    {
+        "Source":  "磁盘空间不足{0}%",
+        "Translation":  "Insufficient disk space{0}%"
+    },
+    {
+        "Source":  "社区评分，%1 分(共 %2 分)",
+        "Translation":  "Community rating, %1 out of %2"
+    },
+    {
+        "Source":  "秒",
+        "Translation":  "seconds"
+    },
+    {
+        "Source":  "移除所选内容并放入剪贴板",
+        "Translation":  "Remove selection and place on clipboard"
+    },
+    {
+        "Source":  "稍后手动重启",
+        "Translation":  "Restart manually later"
+    },
+    {
+        "Source":  "空间清理提醒",
+        "Translation":  "Space clearing reminder"
+    },
+    {
+        "Source":  "窗口或App",
+        "Translation":  "Window or App"
+    },
+    {
+        "Source":  "窗口数量超过限制，请先关闭开启的窗口后再尝试打开新的应用",
+        "Translation":  "The number of windows exceeds the limit. Please close open windows before trying to open a new application."
+    },
+    {
+        "Source":  "立即切换",
+        "Translation":  "Switch now"
+    },
+    {
+        "Source":  "立即开启",
+        "Translation":  "Turn on now"
+    },
+    {
+        "Source":  "立即打开",
+        "Translation":  "Open now"
+    },
+    {
+        "Source":  "立即更新",
+        "Translation":  "Update"
+    },
+    {
+        "Source":  "立即清理",
+        "Translation":  "Clean up now"
+    },
+    {
+        "Source":  "立即退出",
+        "Translation":  "Exit now"
+    },
+    {
+        "Source":  "立即重启",
+        "Translation":  "Restart now"
+    },
+    {
+        "Source":  "第一页",
+        "Translation":  "First page"
+    },
+    {
+        "Source":  "等待从",
+        "Translation":  "waiting from"
+    },
+    {
+        "Source":  "等待向",
+        "Translation":  "waiting for"
+    },
+    {
+        "Source":  "等待对方接收...",
+        "Translation":  "Waiting for the other party to receive..."
+    },
+    {
+        "Source":  "等待建立连接...",
+        "Translation":  "Waiting for connection to be established..."
+    },
+    {
+        "Source":  "粗体",
+        "Translation":  "Bold"
+    },
+    {
+        "Source":  "粘贴",
+        "Translation":  "Paste"
+    },
+    {
+        "Source":  "粘贴自",
+        "Translation":  "Pasted from"
+    },
+    {
+        "Source":  "系统内部错误，请重试。",
+        "Translation":  "Internal system error, please try again."
+    },
+    {
+        "Source":  "系统更新",
+        "Translation":  "System update"
+    },
+    {
+        "Source":  "系统错误，请您重试",
+        "Translation":  "System error, please try again"
+    },
+    {
+        "Source":  "红色",
+        "Translation":  "red"
+    },
+    {
+        "Source":  "给所选文字加下划线",
+        "Translation":  "Underline selected text"
+    },
+    {
+        "Source":  "继续向边缘移动指针开始共享，实现电脑与平板的跨端操作",
+        "Translation":  "Continue to move the pointer to the edge to start sharing, realizing cross-end operation between computers and tablets"
+    },
+    {
+        "Source":  "绿色",
+        "Translation":  "green"
+    },
+    {
+        "Source":  "网络不稳定，请检查网络或断开重试",
+        "Translation":  "The network is unstable, please check the network or disconnect and try again"
+    },
+    {
+        "Source":  "网络协同",
+        "Translation":  "Shared internet"
+    },
+    {
+        "Source":  "网络异常，请稍后重试",
+        "Translation":  "Network abnormality, please try again later"
+    },
+    {
+        "Source":  "网络连接异常，请确保WLAN、蓝牙开启，再重试",
+        "Translation":  "The network connection is abnormal. Please make sure WLAN and Bluetooth are turned on and try again."
+    },
+    {
+        "Source":  "群组",
+        "Translation":  "group"
+    },
+    {
+        "Source":  "耳机",
+        "Translation":  "Headphones"
+    },
+    {
+        "Source":  "自定义其他应用",
+        "Translation":  "Customize other apps"
+    },
+    {
+        "Source":  "色调",
+        "Translation":  "hue"
+    },
+    {
+        "Source":  "色调 %1!u!",
+        "Translation":  "Hue %1!u!"
+    },
+    {
+        "Source":  "色调 %1!u! (%2!s!)",
+        "Translation":  "Hue %1!u! (%2!s!)"
+    },
+    {
+        "Source":  "色调 %1!u!，饱和度 %2!u!，亮度 %3!u!",
+        "Translation":  "Hue %1!u!, Saturation %2!u!, Brightness %3!u!"
+    },
+    {
+        "Source":  "若发现不到设备，请确认电视与本机在同一 Wi-Fi",
+        "Translation":  "If the device is not found, please confirm that the TV and this unit are on the same Wi-Fi"
+    },
+    {
+        "Source":  "若想体验\"小米澎湃AI搜索\"，请打开",
+        "Translation":  "If you want to experience \"Xiaomi Pengpai AI Search\", please open"
+    },
+    {
+        "Source":  "英特尔显卡未就绪",
+        "Translation":  "Intel Graphics Not Ready"
+    },
+    {
+        "Source":  "菜单",
+        "Translation":  "menu"
+    },
+    {
+        "Source":  "菜单项",
+        "Translation":  "menu item"
+    },
+    {
+        "Source":  "蓝牙与 Wi-Fi 未开启",
+        "Translation":  "Bluetooth and Wi-Fi are not turned on"
+    },
+    {
+        "Source":  "蓝牙或 Wi-Fi 模块未开启",
+        "Translation":  "Bluetooth or Wi-Fi module is not turned on"
+    },
+    {
+        "Source":  "蓝牙未开启",
+        "Translation":  "Bluetooth is not turned on"
+    },
+    {
+        "Source":  "蓝牙连接失败，未传输任务已取消，请确认双方设备蓝牙状态后，重新发送",
+        "Translation":  "The Bluetooth connection failed and the untransmitted task has been cancelled. Please confirm the Bluetooth status of both devices before sending again."
+    },
+    {
+        "Source":  "蓝牙连接超时",
+        "Translation":  "Bluetooth connection timeout"
+    },
+    {
+        "Source":  "蓝色",
+        "Translation":  "blue"
+    },
+    {
+        "Source":  "融合设备中心",
+        "Translation":  "Device Center"
+    },
+    {
+        "Source":  "计算器",
+        "Translation":  "calculator"
+    },
+    {
+        "Source":  "记事本",
+        "Translation":  "Notepad"
+    },
+    {
+        "Source":  "设备下线，任务未创建",
+        "Translation":  "The device is offline and the task is not created"
+    },
+    {
+        "Source":  "设备互联需要开启WLAN，是否确认开启？",
+        "Translation":  "Device interconnection requires WLAN to be turned on. Are you sure to turn it on?"
+    },
+    {
+        "Source":  "设备升级中，请在升级完成后使用",
+        "Translation":  "The device is being upgraded, please use it after the upgrade is completed."
+    },
+    {
+        "Source":  "设备协同",
+        "Translation":  "Device collaboration"
+    },
+    {
+        "Source":  "设备协同提示",
+        "Translation":  "Device collaboration prompts"
+    },
+    {
+        "Source":  "设备发现中",
+        "Translation":  "Device discovering"
+    },
+    {
+        "Source":  "设备可能不在附近",
+        "Translation":  "The device may not be nearby"
+    },
+    {
+        "Source":  "设备处于隐身模式，无法接收文件",
+        "Translation":  "Device is in stealth mode and cannot receive files"
+    },
+    {
+        "Source":  "设备已离线，请稍后重试",
+        "Translation":  "The device is offline, please try again later"
+    },
+    {
+        "Source":  "设备异常",
+        "Translation":  "Equipment abnormality"
+    },
+    {
+        "Source":  "设备查找中",
+        "Translation":  "Device searching"
+    },
+    {
+        "Source":  "设备正在响铃",
+        "Translation":  "The device is ringing"
+    },
+    {
+        "Source":  "设备正忙",
+        "Translation":  "Device is busy"
+    },
+    {
+        "Source":  "设备正忙，请稍候重试",
+        "Translation":  "The device is busy, please try again later."
+    },
+    {
+        "Source":  "设备正忙，请稍后再试",
+        "Translation":  "The device is busy, please try again later"
+    },
+    {
+        "Source":  "设备正忙，请稍后再试。",
+        "Translation":  "The device is busy, please try again later."
+    },
+    {
+        "Source":  "设备正忙，请稍后重试。",
+        "Translation":  "The device is busy, please try again later."
+    },
+    {
+        "Source":  "设备热点已开启，请关闭热点重试",
+        "Translation":  "The device hotspot is turned on, please turn off the hotspot and try again"
+    },
+    {
+        "Source":  "设备的WLAN正被使用，请稍后再试",
+        "Translation":  "The device\u0027s WLAN is in use, please try again later."
+    },
+    {
+        "Source":  "设置",
+        "Translation":  "Settings"
+    },
+    {
+        "Source":  "设置成功后，点击按键将启动对应功能",
+        "Translation":  "After successful setting, click the button to start the corresponding function"
+    },
+    {
+        "Source":  "评分，%1 分(共 %2 分)",
+        "Translation":  "Rating, %1 points (%2 points total)"
+    },
+    {
+        "Source":  "评分滑块",
+        "Translation":  "Rating slider"
+    },
+    {
+        "Source":  "该应用暂不支持组合摄像头",
+        "Translation":  "This app does not currently support combined cameras"
+    },
+    {
+        "Source":  "该模式下仅支持发现和连接同一WLAN网络内的设备。接入电源后将自动退出该模式。您可以在“小米电脑管家-设置-设备互联-更多功能”中进行设置。",
+        "Translation":  "This mode only supports discovering and connecting devices within the same WLAN network. It will automatically exit this mode after connecting to power. You can set it in \"Xiaomi Computer Manager-Settings-Device Interconnection-More Functions\"."
+    },
+    {
+        "Source":  "请佩戴耳机后使用",
+        "Translation":  "Please wear headphones before use"
+    },
+    {
+        "Source":  "请保持手机和电脑的Wi-Fi、蓝牙打开并登录同一小米账号",
+        "Translation":  "Please keep Wi-Fi and Bluetooth turned on on your phone and computer and log in to the same Xiaomi account"
+    },
+    {
+        "Source":  "请先启动小米电脑管家",
+        "Translation":  "Please start Xiaomi Computer Manager first"
+    },
+    {
+        "Source":  "请关闭手机热点后重试",
+        "Translation":  "Please turn off the mobile hotspot and try again"
+    },
+    {
+        "Source":  "请关闭移动热点或无线投屏后重试",
+        "Translation":  "Please turn off the mobile hotspot or wireless mirroring and try again"
+    },
+    {
+        "Source":  "请前往\"",
+        "Translation":  "Please go to\""
+    },
+    {
+        "Source":  "请前往{0}开启权限",
+        "Translation":  "Please go to {0} to enable permissions"
+    },
+    {
+        "Source":  "请前往{0}的设置 \u003e 隐私与安全 \u003e 互联权限，授权相机权限后使用",
+        "Translation":  "Please go to {0}\u0027s Settings \u003e Privacy and Security \u003e Internet Permissions, and authorize camera permissions before use."
+    },
+    {
+        "Source":  "请前往“{0}”关闭移动热点",
+        "Translation":  "Please go to \"{0}\" to turn off mobile hotspot"
+    },
+    {
+        "Source":  "请前往“{0}”的设置 \u003e 隐私与安全 \u003e 互联权限，授权相机权限后使用",
+        "Translation":  "Please go to Settings \u003e Privacy and Security \u003e Internet Permissions of \"{0}\" and authorize camera permissions before use."
+    },
+    {
+        "Source":  "请前往互联设备开启权限",
+        "Translation":  "Please go to the Internet device to enable permissions"
+    },
+    {
+        "Source":  "请前往手机的设置 \u003e 互联互通，打开跨设备相机开关",
+        "Translation":  "Please go to your phone\u0027s Settings \u003e Interoperability and turn on the cross-device camera switch."
+    },
+    {
+        "Source":  "请前往手机的设置 \u003e 设备互联，打开妙享桌面开关",
+        "Translation":  "Please go to your phone\u0027s settings \u003e Device interconnection and turn on the MiaoXiang desktop switch."
+    },
+    {
+        "Source":  "请升级平板系统",
+        "Translation":  "Please upgrade your tablet system"
+    },
+    {
+        "Source":  "请双耳佩戴耳机后使用",
+        "Translation":  "Please wear headphones on both ears before use"
+    },
+    {
+        "Source":  "请在\"设备管理器\"中确认Xiaomi Bus Enumerator驱动状态是否正常，若被禁用，请重新启用。若找不到相关驱动，请重新安装\"小米电脑管家\"",
+        "Translation":  "Please confirm whether the Xiaomi Bus Enumerator driver status is normal in \"Device Manager\". If it is disabled, please enable it again. If you cannot find the relevant driver, please reinstall \"Xiaomi Computer Manager\""
+    },
+    {
+        "Source":  "请在“设备管理器”中确认Virtual Display、Virtual Audio两个驱动状态是否正常，若被禁用请重新启用，若找不到相关驱动请前往小米电脑助手重新安装小米电脑管家",
+        "Translation":  "Please confirm whether the status of the Virtual Display and Virtual Audio drivers are normal in \"Device Manager\". If they are disabled, please re-enable them. If you cannot find the relevant drivers, please go to Xiaomi Computer Assistant to reinstall Xiaomi Computer Manager."
+    },
+    {
+        "Source":  "请在“设备管理器-显示适配器”中启用AMD显卡后重试",
+        "Translation":  "Please enable the AMD graphics card in \"Device Manager - Display Adapters\" and try again."
+    },
+    {
+        "Source":  "请在“设备管理器-显示适配器”中启用Intel显卡后重试",
+        "Translation":  "Please enable the Intel graphics card in \"Device Manager - Display Adapter\" and try again."
+    },
+    {
+        "Source":  "请在“设置-网络和Internet”设置页，关闭“移动热点”后重试。\n建议尝试重复开关“移动热点”按钮。",
+        "Translation":  "Please turn off \"Mobile Hotspot\" on the \"Settings - Network and Internet\" settings page and try again.\nIt is recommended to try turning the \"Mobile Hotspot\" button on and off repeatedly."
+    },
+    {
+        "Source":  "请尝试重新复制源文件",
+        "Translation":  "Please try copying the source file again"
+    },
+    {
+        "Source":  "请开启麦克风阵列后重试",
+        "Translation":  "Please turn on the microphone array and try again"
+    },
+    {
+        "Source":  "请打开",
+        "Translation":  "please open"
+    },
+    {
+        "Source":  "请按住充电盒的按钮2秒",
+        "Translation":  "Please press and hold the button of the charging box for 2 seconds"
+    },
+    {
+        "Source":  "请断开外置的显示器",
+        "Translation":  "Please disconnect the external monitor"
+    },
+    {
+        "Source":  "请检查“小米电脑管家”是否安装正常或重启电脑后重试",
+        "Translation":  "Please check whether \"Xiaomi Computer Manager\" is installed properly or restart the computer and try again"
+    },
+    {
+        "Source":  "请检查摄像头是否正被其他应用占用",
+        "Translation":  "Please check if the camera is being used by another application"
+    },
+    {
+        "Source":  "请检查网络",
+        "Translation":  "Please check the network"
+    },
+    {
+        "Source":  "请检查驱动状态",
+        "Translation":  "Please check driver status"
+    },
+    {
+        "Source":  "请确保手机和电脑登录同一小米账号",
+        "Translation":  "Please make sure you log in to the same Xiaomi account on your phone and computer"
+    },
+    {
+        "Source":  "请确保接收方处于可见位置",
+        "Translation":  "Make sure the recipient is visible"
+    },
+    {
+        "Source":  "请确认双端设备蓝牙、WLAN开关已开启",
+        "Translation":  "Please confirm that the Bluetooth and WLAN switches of the dual-end device are turned on"
+    },
+    {
+        "Source":  "请确认摄像头状态",
+        "Translation":  "Please confirm camera status"
+    },
+    {
+        "Source":  "请确认电脑和平板的蓝牙和WLAN正常开启并在连接范围内",
+        "Translation":  "Please confirm that the Bluetooth and WLAN of the computer and tablet are turned on and within the connection range."
+    },
+    {
+        "Source":  "请稍后重试",
+        "Translation":  "Please try again later"
+    },
+    {
+        "Source":  "请输入“",
+        "Translation":  "Please enter \""
+    },
+    {
+        "Source":  "请通过桌面右键选择“NVIDIA控制面板”，点击“管理3D设置”，将首选图形处理器设置为“自动选择”或“集成图形”",
+        "Translation":  "Please right-click on the desktop and select \"NVIDIA Control Panel\", click \"Manage 3D Settings\", and set the preferred graphics processor to \"Automatic selection\" or \"Integrated graphics\""
+    },
+    {
+        "Source":  "请重新尝试连接，并且根据提示输入正确的锁屏密码",
+        "Translation":  "Please try connecting again and enter the correct lock screen password as prompted."
+    },
+    {
+        "Source":  "请重新尝试连接，并在手机上进行授权",
+        "Translation":  "Please try connecting again and authorize on your phone"
+    },
+    {
+        "Source":  "调用以显示或隐藏文本输入字段。",
+        "Translation":  "Called to show or hide a text input field."
+    },
+    {
+        "Source":  "超级小爱",
+        "Translation":  "XiaoAI"
+    },
+    {
+        "Source":  "超过250",
+        "Translation":  "More than 250"
+    },
+    {
+        "Source":  "距离上次访问已超过7天，请打开",
+        "Translation":  "It has been more than 7 days since the last visit, please open"
+    },
+    {
+        "Source":  "跨设备剪贴板",
+        "Translation":  "Cross-device clipboard"
+    },
+    {
+        "Source":  "跨设备相机",
+        "Translation":  "Cross-device camera"
+    },
+    {
+        "Source":  "跨设备相机连接失败",
+        "Translation":  "Cross-device camera connection failed"
+    },
+    {
+        "Source":  "跨设备相机连接已断开",
+        "Translation":  "Cross-device camera connection lost"
+    },
+    {
+        "Source":  "跨设备访问文件",
+        "Translation":  "Access files across devices"
+    },
+    {
+        "Source":  "跨设备速绘",
+        "Translation":  "Cross-device quick drawing"
+    },
+    {
+        "Source":  "身份认证授权失败",
+        "Translation":  "Identity authentication and authorization failed"
+    },
+    {
+        "Source":  "轻轻的我走了，正如我轻轻的来；\n我轻轻的招手，作别西天的云彩。\n那河畔的金柳，是夕阳中的新娘；\n波光里的艳影，在我的心头荡漾。\n悄悄的我走了，正如我悄悄的来；\n我挥一挥衣袖，不带走一片云彩。",
+        "Translation":  "Gently I leave, just as gently I came;\nI waved gently, saying goodbye to the clouds in the western sky.\nThe golden willows by the river are the bride in the sunset;\nThe beautiful shadows in the waves ripple in my heart.\nQuietly I left, just as quietly I came;\nI wave my sleeves and don\u0027t take away a single cloud."
+    },
+    {
+        "Source":  "输入正确锁屏密码",
+        "Translation":  "Enter the correct lock screen password"
+    },
+    {
+        "Source":  "输入电脑密码或指纹以信任",
+        "Translation":  "Enter computer password or fingerprint to trust"
+    },
+    {
+        "Source":  "输入锁屏密码以信任此电脑",
+        "Translation":  "Enter your lock screen password to trust this computer"
+    },
+    {
+        "Source":  "过了下列时间后提醒我:",
+        "Translation":  "Remind me after:"
+    },
+    {
+        "Source":  "过滤环境音突出人声，对方听的更清楚",
+        "Translation":  "Filters ambient sounds to highlight human voices so the other party can hear them more clearly"
+    },
+    {
+        "Source":  "过滤环境音突出人声，对方听的更清楚。连接外设时不支持单人、多人降噪模式设置",
+        "Translation":  "Filter the ambient sound to highlight the human voice, so the other party can hear it more clearly. Single-person and multi-person noise reduction mode settings are not supported when connecting peripherals"
+    },
+    {
+        "Source":  "返回",
+        "Translation":  "Back"
+    },
+    {
+        "Source":  "连 接",
+        "Translation":  "connect"
+    },
+    {
+        "Source":  "连接",
+        "Translation":  "connect"
+    },
+    {
+        "Source":  "连接“",
+        "Translation":  "Connect \""
+    },
+    {
+        "Source":  "连接中...",
+        "Translation":  "Connecting..."
+    },
+    {
+        "Source":  "连接中断",
+        "Translation":  "Connection interrupted"
+    },
+    {
+        "Source":  "连接失败",
+        "Translation":  "Connection failed"
+    },
+    {
+        "Source":  "连接失败，摄像头已离线",
+        "Translation":  "Connection failed, camera is offline"
+    },
+    {
+        "Source":  "连接失败，请检查网络环境后重试",
+        "Translation":  "Connection failed, please check the network environment and try again"
+    },
+    {
+        "Source":  "连接失败，请重试",
+        "Translation":  "Connection failed, please try again"
+    },
+    {
+        "Source":  "连接已断开",
+        "Translation":  "The connection has been lost"
+    },
+    {
+        "Source":  "连接热点",
+        "Translation":  "Connect to a hotspot"
+    },
+    {
+        "Source":  "连接耳机",
+        "Translation":  "Connect headphones"
+    },
+    {
+        "Source":  "连接蓝牙和Wi-Fi",
+        "Translation":  "Connect Bluetooth and Wi-Fi"
+    },
+    {
+        "Source":  "连接被拒绝",
+        "Translation":  "Connection refused"
+    },
+    {
+        "Source":  "连接超时",
+        "Translation":  "Connection timeout"
+    },
+    {
+        "Source":  "连接超时，请稍后重试",
+        "Translation":  "Connection timed out, please try again later"
+    },
+    {
+        "Source":  "连接超时，请重试",
+        "Translation":  "Connection timed out, please try again"
+    },
+    {
+        "Source":  "退出",
+        "Translation":  "Exit"
+    },
+    {
+        "Source":  "退出后附近设备将无法发现{0}的小米本，是否确认退出？",
+        "Translation":  "After exiting, nearby devices will not be able to discover {0}\u0027s Xiaomi notebook. Do you confirm to exit?"
+    },
+    {
+        "Source":  "退出小米电脑管家",
+        "Translation":  "Exit Xiaomi Computer Manager"
+    },
+    {
+        "Source":  "选择所有内容",
+        "Translation":  "Select all"
+    },
+    {
+        "Source":  "选择的窗口或App显示在\"{0}\"",
+        "Translation":  "The selected window or app is displayed in \"{0}\""
+    },
+    {
+        "Source":  "选择窗口",
+        "Translation":  "Select window"
+    },
+    {
+        "Source":  "通话已在其他设备上接听",
+        "Translation":  "The call was answered on another device"
+    },
+    {
+        "Source":  "通透",
+        "Translation":  "Transparent"
+    },
+    {
+        "Source":  "重 试",
+        "Translation":  "Try again"
+    },
+    {
+        "Source":  "重启系统前请保存您的文件",
+        "Translation":  "Please save your files before restarting the system"
+    },
+    {
+        "Source":  "重复最近的撤消操作",
+        "Translation":  "Repeat recent undo action"
+    },
+    {
+        "Source":  "重新启动",
+        "Translation":  "Restart"
+    },
+    {
+        "Source":  "重新启用跨设备身份认证",
+        "Translation":  "Re-enable cross-device authentication"
+    },
+    {
+        "Source":  "重新录制",
+        "Translation":  "re-record"
+    },
+    {
+        "Source":  "重新设置",
+        "Translation":  "reset"
+    },
+    {
+        "Source":  "重新连接",
+        "Translation":  "Reconnect"
+    },
+    {
+        "Source":  "重试",
+        "Translation":  "Try again"
+    },
+    {
+        "Source":  "错误",
+        "Translation":  "Error"
+    },
+    {
+        "Source":  "错误图标",
+        "Translation":  "error icon"
+    },
+    {
+        "Source":  "键鼠共享",
+        "Translation":  "Keyboard and mouse sharing"
+    },
+    {
+        "Source":  "键鼠共享连接失败，请确认电脑和平板的蓝牙和WLAN是否正常开启并在连接范围内",
+        "Translation":  "The keyboard and mouse sharing connection failed. Please confirm whether the Bluetooth and WLAN of the computer and tablet are turned on normally and within the connection range."
+    },
+    {
+        "Source":  "镜像屏幕到平板",
+        "Translation":  "Mirror screen to tablet"
+    },
+    {
+        "Source":  "镜像屏幕到电视",
+        "Translation":  "Mirror screen to TV"
+    },
+    {
+        "Source":  "镜像窗口或App到电视",
+        "Translation":  "Mirror windows or apps to TV"
+    },
+    {
+        "Source":  "问题已成功提交",
+        "Translation":  "Issue submitted successfully"
+    },
+    {
+        "Source":  "问题提交失败，请重新提交反馈",
+        "Translation":  "Problem submission failed, please resubmit feedback"
+    },
+    {
+        "Source":  "附近暂无可使用设备",
+        "Translation":  "There are currently no devices nearby"
+    },
+    {
+        "Source":  "附近暂无可用网络，可启用热点",
+        "Translation":  "There is no available network nearby, you can enable hotspot"
+    },
+    {
+        "Source":  "降噪",
+        "Translation":  "Noise reduction"
+    },
+    {
+        "Source":  "隐藏",
+        "Translation":  "hide"
+    },
+    {
+        "Source":  "需要修改设置",
+        "Translation":  "Need to modify settings"
+    },
+    {
+        "Source":  "需要在电脑上下载【{0}】以体验应用接力功能，请问是否下载？",
+        "Translation":  "You need to download [{0}] on your computer to experience the application relay function. Do you want to download it?"
+    },
+    {
+        "Source":  "需要更改投影设置，将其他设备投影到此电脑设置改为\"始终关闭\"",
+        "Translation":  "You need to change the projection settings and change the settings of other devices to project to this computer to \"Always off\""
+    },
+    {
+        "Source":  "需要更新驱动",
+        "Translation":  "Need to update driver"
+    },
+    {
+        "Source":  "静音",
+        "Translation":  "mute"
+    },
+    {
+        "Source":  "非同账号手机不支持添加到桌面",
+        "Translation":  "Mobile phones with different accounts cannot be added to the desktop."
+    },
+    {
+        "Source":  "页面",
+        "Translation":  "Page"
+    },
+    {
+        "Source":  "顶",
+        "Translation":  "Top"
+    },
+    {
+        "Source":  "项目",
+        "Translation":  "Project"
+    },
+    {
+        "Source":  "颜色模型",
+        "Translation":  "color model"
+    },
+    {
+        "Source":  "颜色选取器",
+        "Translation":  "color picker"
+    },
+    {
+        "Source":  "饱和度",
+        "Translation":  "saturation"
+    },
+    {
+        "Source":  "饱和度 %1!u!",
+        "Translation":  "Saturation %1!u!"
+    },
+    {
+        "Source":  "饱和度 %1!u! (%2!s!)",
+        "Translation":  "Saturation %1!u! (%2!s!)"
+    },
+    {
+        "Source":  "驱动更新",
+        "Translation":  "Driver update"
+    },
+    {
+        "Source":  "驱动更新已完成",
+        "Translation":  "Driver update completed"
+    },
+    {
+        "Source":  "驱动更新已完成，需要重启计算机后生效",
+        "Translation":  "The driver update has been completed and needs to be restarted to take effect."
+    },
+    {
+        "Source":  "验证码输入超时，请重新发起投屏",
+        "Translation":  "Verification code input timed out, please initiate screencasting again"
+    },
+    {
+        "Source":  "验证码错误，请重新输入“",
+        "Translation":  "Verification code is wrong, please re-enter\""
+    },
+    {
+        "Source":  "麦克风设备无法使用，请修复后重试",
+        "Translation":  "The microphone device cannot be used, please fix it and try again."
+    },
+    {
+        "Source":  "麦克风降噪",
+        "Translation":  "Microphone noise reduction"
+    }
+,{"Source":"屏幕触控","Translation":"Screen touch"}]

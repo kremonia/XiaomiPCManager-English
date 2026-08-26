@@ -1,4 +1,10 @@
-# Original-file backups made by the installer
+# Installer state: originals backup + build artifacts
+state/
+
+# Downloaded build tools (makepri, Mono.Cecil)
+.tools/
+
+# Original-file backups made by older versions of the installer
 *.zh-CN.bak
 
 # Windows junk

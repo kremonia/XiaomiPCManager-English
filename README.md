@@ -1,85 +1,78 @@
 # Xiaomi PC Manager — English UI Patch
 
-![Target version](https://img.shields.io/badge/target_version-5.8.1.121-blue)
+![Target version](https://img.shields.io/badge/works_with-5.8.x-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows_10%2F11-0078D6)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-**Trying to change Xiaomi PC Manager to English?** There is no language setting for it — this project is the workaround: an unofficial English translation patch for **小米电脑管家 (Xiaomi PC Manager)**, Xiaomi's PC companion app for its laptops, tablets and phones.
+**Trying to change Xiaomi PC Manager to English?** There is no language setting for it — this project is the workaround: a turn-key English translation patch for **小米电脑管家 (Xiaomi PC Manager)**, Xiaomi's PC companion app for its laptops, tablets and phones.
 
-The Chinese-market build contains **no English resources at all**: it ignores the Windows display language, exposes no language setting, and there is no official English version or international download. This patch swaps the app's Chinese UI text for English by replacing the strings inside its web-based UI bundles — one click to install, one click to roll back.
+The Chinese-market build contains **no English resources at all**: it ignores the Windows display language, exposes no language setting, and there is no official English version or international download. This patch rewrites the app's Chinese UI text — both in its web-based screens and in its native Windows shell — **in place, on your own installation**. One click to install, one click to roll back, and it is not pinned to a specific app build.
 
 ## What gets translated
 
-| Area | Status |
+| Area | How |
 |---|---|
-| Home / device dashboard | ✅ English |
-| Device interconnect (HyperConnect) | ✅ English |
-| Toolbox (cleanup, battery, performance…) | ✅ English |
-| Settings | ✅ English |
-| Driver management | ✅ English |
-| Feedback | ✅ English |
-| AI Search overlay (file search) | ✅ English |
-| Tray icon menu & some native popups | ❌ still Chinese — compiled into native DLLs |
-| Privacy agreement & legal texts | ❌ still Chinese |
-| Province/city picker | ❌ still Chinese (China-only region services) |
-| Update/version-check windows (native shell) | ❌ still Chinese |
+| Main window, settings, toolbox, drivers, feedback, app store, AI Search (~1,600 string literals) | WebView2 JS bundles, patched with a full zh→en dictionary |
+| Native shell strings (dialogs, menus, notifications, ~1,400 strings) | WinUI `.pri` resource files, rebuilt with `makepri` |
+| Tray tooltip | `小米电脑管家` → `Xiaomi` in `MiSmartShareDLL.dll` |
+| Cross-device clipboard app (menus, labels) | .NET resources + IL strings in `PcClipboard.exe` |
+| Update dialogs (unreadable `????` changelog on non-Chinese Windows) | Replaced with a localized notice |
+| Keyboard-backlight "Auto" OSD artwork (34 images, all scales) | Redrawn with System.Drawing |
 
-About **2,400 strings** across the two UI bundles: ~1,950 in the main window and ~460 in the AI Search overlay.
-
-## Requirements
-
-- Windows 10 / 11
-- Xiaomi PC Manager **5.8.1.121** installed from the China installer
-  (`OvRa_XiaomiPCManager_feature_p52_5.8.1.121_*.exe`)
-- Administrator rights (the app lives under `C:\Program Files\MI\`)
+Still Chinese: the province/city region picker data (only used by China-region services) and native OS-level dialogs. Everything visible day-to-day is English.
 
 ## Install
 
-1. Clone or download this repository.
-2. Double-click **`INSTALL-ENGLISH.bat`** and accept the UAC prompt.
-3. The script closes the app, backs up the original files as `*.zh-CN.bak`, copies the English bundles in, and restarts the app.
+1. Install Xiaomi PC Manager (any 5.8.x build).
+2. Clone or download this repository.
+3. Double-click **`INSTALL-ENGLISH.bat`** and accept the UAC prompt.
 
-That's it — the main window, settings, toolbox, drivers, feedback and AI Search are now in English.
+The installer detects the newest installed version, backs up every original file it touches into `state\<version>\original\`, builds the patched artifacts (downloading two pinned open-source tools on first run), installs them, and restarts the app. Unknown strings on newer builds simply stay Chinese — the installer reports exactly what it translated and what it skipped, and never refuses to run.
+
+> Note: patching removes the Authenticode signature from `XiaomiPcManager.dll` and `PcClipboard.exe` (the files are modified, so the signature can no longer verify). `RESTORE-CHINESE.bat` puts the signed originals back.
 
 ## Roll back
 
-Double-click **`RESTORE-CHINESE.bat`**. The originals are restored from the `.zh-CN.bak` backups and the app restarts.
+Double-click **`RESTORE-CHINESE.bat`**. Originals are restored from the backups (including backups made by older versions of this patch) and the app restarts in Chinese.
 
 ## How it works
 
-Xiaomi PC Manager is a WinUI 3 shell whose screens (main window, settings, toolbox, drivers, feedback, AI Search) are rendered in **WebView2** — they are web pages. All visible Chinese text lives in two JavaScript bundles:
+Xiaomi PC Manager is a WinUI 3 shell whose screens are rendered in **WebView2**, so the visible text lives in two layers:
 
-| Bundle | UI | Strings |
-|---|---|---|
-| `dist/static/js/main.js` | Main window | ~1,950 |
-| `Search/dist/assets/index.js` (+ `index-legacy.js`) | AI Search overlay | ~460 |
+- **Web layer** — `scripts/WebBundlePatcher.cs` is a small JS tokenizer (strings, templates, comments, regex literals — regex-based quote pairing corrupts minified bundles) that walks the installed bundles and replaces whole string literals using `translations.json` (1,284 entries). Inside JSON payload strings only whole runs are translated, so region data like `上海` is never corrupted by the single-character key `上`.
+- **Native layer** — the PRI resources are dumped to XML with `makepri`, their zh-CN string candidates are replaced from `translations/pri-en.json`, and valid PRI files are rebuilt. A small `SetThreadUILanguage(0x0804)` call is injected at the start of `Program.Main` (via Mono.Cecil) so the process keeps resolving Xiaomi's complete zh-CN resource graph — only the strings inside that graph are replaced. The tray DLL, clipboard app and OSD artwork are patched with the same dictionary-driven approach.
 
-The patch replaces every Chinese string with its English equivalent **in place** — no code logic is touched. `translations.json` holds the full Chinese→English dictionary (1,283 entries), so the patch can be regenerated against future versions.
+This native-layer technique is adapted from [yoursAnthony/XiaomiPCManager-Locale-Patch](https://github.com/yoursAnthony/XiaomiPCManager-Locale-Patch) (MIT) — see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Their version is pinned to one exact build via SHA-256 checksums; this repository replaced the pinning with capability detection so any 5.8.x build patches best-effort.
 
 ### After an app update
 
-The updater installs a fresh version folder with Chinese files, which overwrites the patch. The `.bat` scripts always target the newest version folder, but the patched bundles were built from 5.8.1.121 — after an update some strings may fall back to Chinese. To re-translate:
-
-1. Copy the fresh Chinese bundles out of the new install folder.
-2. Apply `translations.json` to them (replace each Chinese key with its English value).
-3. Copy the results back into this repo's `dist/` and `Search/` folders and re-run the installer.
-
-> ⚠️ **Only translate actual CJK text.** Some innocuous-looking characters in the bundles (e.g. `￿`, U+FFFF) are endpoints of character ranges inside regular expressions — replacing them corrupts the bundle, and the app hangs on a loading spinner at startup.
+Just run `INSTALL-ENGLISH.bat` again. The updater installs a fresh version folder with Chinese files; the installer re-detects it and re-patches. Strings that changed since the dictionaries were written stay Chinese (with a warning listing them) — extend `translations.json` / `translations/pri-en.json` and re-run to cover them.
 
 ## Project structure
 
 ```text
 .
-├── INSTALL-ENGLISH.bat      # install the English UI (self-elevating)
-├── RESTORE-CHINESE.bat      # one-click rollback
-├── translations.json        # full Chinese→English dictionary (1,283 entries)
-├── dist/
-│   └── static/js/main.js    # patched main-window bundle
-└── Search/
-    └── dist/assets/         # patched AI Search bundles
-        ├── index.js
-        └── index-legacy.js
+├── INSTALL-ENGLISH.bat        # one-click install (self-elevating)
+├── RESTORE-CHINESE.bat        # one-click rollback
+├── translations.json          # zh→en dictionary for the web UI (1,284 entries)
+├── translations/
+│   ├── pri-en.json            # dictionary for native WinUI shell strings
+│   └── clipboard-en.json      # dictionary for the clipboard app
+├── scripts/
+│   ├── Install.ps1            # orchestrator: detect → back up → patch → verify
+│   ├── Restore.ps1            # rollback
+│   ├── Patch-Web.ps1          # web bundle patcher (uses WebBundlePatcher.cs)
+│   ├── WebBundlePatcher.cs    # JS tokenizer + literal translator
+│   ├── Patch-Pri.ps1          # zh-CN candidate replacement in PRI dumps
+│   ├── Patch-Assembly.ps1     # SetThreadUILanguage injection + update dialogs
+│   ├── Patch-NativeString.ps1 # UTF-16 string swap (tray tooltip)
+│   ├── Patch-Clipboard.ps1    # clipboard .NET resources + IL strings
+│   ├── Patch-OsdImages.ps1    # keyboard-backlight OSD artwork redraw
+│   └── priconfig.xml          # makepri rebuild configuration
+└── THIRD_PARTY_NOTICES.md
 ```
+
+No Xiaomi code is redistributed — the repository contains only scripts and dictionaries; everything is applied locally against your own installation.
 
 ## FAQ
 
@@ -92,8 +85,15 @@ Yes — run `RESTORE-CHINESE.bat` at any time. The installer keeps backups of ev
 **Does it work on Windows 10 as well as Windows 11?**
 Yes, both are supported (the app itself renders its UI through WebView2).
 
+**My antivirus flags the installer.**
+The installer downloads two signed open-source tools (Mono.Cecil and the Windows SDK build tools) and rewrites application files under `C:\Program Files` — behavior heuristics sometimes dislike that. Inspect the scripts in `scripts/`; everything they do is visible in plain PowerShell.
+
 **The app updated itself and Chinese came back — what now?**
-Re-apply the patch: see [After an app update](#after-an-app-update). The `translations.json` dictionary makes regenerating the patched bundles straightforward.
+Run `INSTALL-ENGLISH.bat` again. See [After an app update](#after-an-app-update).
+
+## Related projects
+
+- [yoursAnthony/XiaomiPCManager-Locale-Patch](https://github.com/yoursAnthony/XiaomiPCManager-Locale-Patch) — the original native-layer locale patch (English + Russian, build-pinned to 5.8.0.57), which this project's native patching technique is adapted from.
 
 ## Disclaimer
 
@@ -101,6 +101,4 @@ This is an unofficial fan translation. It is not affiliated with, endorsed by, o
 
 ## License
 
-Released under the [MIT License](LICENSE).
-
-The MIT license covers the original work in this repository: the translation dictionary, the batch scripts, and the documentation. The patched JavaScript bundles are derived from Xiaomi's proprietary code, remain the property of their respective owners, and are included here solely as a functional patch for existing installations of the app.
+Released under the [MIT License](LICENSE). The MIT license covers the original work in this repository: the translation dictionaries, the scripts, and the documentation. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the licenses of the adapted native-patching technique and the build tools the installer downloads.
