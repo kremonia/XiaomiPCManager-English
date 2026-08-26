@@ -31,6 +31,10 @@ $outputBytes = if ($hadBom) {
 } else {
     [Text.Encoding]::UTF8.GetBytes($patched)
 }
+$structureError = [WebBundlePatcher]::Verify($patched)
+if ($structureError) {
+    throw "Patched bundle failed structural verification ($structureError); the original file is kept."
+}
 New-Item -ItemType Directory -Path (Split-Path -Parent $OutputBundle) -Force | Out-Null
 [IO.File]::WriteAllBytes($OutputBundle, $outputBytes)
 

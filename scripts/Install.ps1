@@ -147,7 +147,7 @@ function Install-NugetTool([string]$PackageName, [string]$Url, [string]$Required
     }
     New-Item -ItemType Directory -Path $destination -Force | Out-Null
     $packageFile = Join-Path $toolsRoot "$PackageName.nupkg"
-    Write-Output "Downloading $PackageName..."
+    Write-Host "Downloading $PackageName..."
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     Invoke-WebRequest -Uri $Url -UseBasicParsing -OutFile $packageFile
     [IO.Compression.ZipFile]::ExtractToDirectory($packageFile, $destination)
@@ -245,6 +245,16 @@ Invoke-Step 'osd images' {
 }
 
 if ($builtFiles.Count -eq 0) { throw 'No patch could be built for this app version.' }
+
+# --- Reset every target to its pristine original first, so a step that
+# --- failed this run never leaves a stale patched (or corrupted) file.
+foreach ($relative in $presentTargets) {
+    $backup = Join-Path $backupRoot $relative
+    $target = Join-Path $AppDirectory $relative
+    if ((Test-Path -LiteralPath $backup -PathType Leaf) -and (Test-Path -LiteralPath $target -PathType Leaf)) {
+        Copy-Item -LiteralPath $backup -Destination $target -Force
+    }
+}
 
 # --- Install the built files ---
 foreach ($relative in $builtFiles.Keys) {

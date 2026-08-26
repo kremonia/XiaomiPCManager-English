@@ -272,6 +272,117 @@ public class WebBundlePatcher
         }
     }
 
+    // Structural validation of a patched bundle: every string literal and
+    // template must terminate, every template ${...} expression must close,
+    // and regex literals must not run to end of file. Returns null when the
+    // structure is sound, or a description of the first anomaly.
+    public static string Verify(string source)
+    {
+        int length = source.Length;
+        int i = 0;
+        char prev = '\0';
+        while (i < length)
+        {
+            char c = source[i];
+            if (Char.IsWhiteSpace(c)) { i++; continue; }
+            if (c == '/' && i + 1 < length && source[i + 1] == '/')
+            {
+                int end = source.IndexOf('\n', i);
+                i = end < 0 ? length : end;
+                continue;
+            }
+            if (c == '/' && i + 1 < length && source[i + 1] == '*')
+            {
+                int end = source.IndexOf("*/", i, StringComparison.Ordinal);
+                if (end < 0) return "unterminated block comment at " + i;
+                i = end + 2;
+                prev = ';';
+                continue;
+            }
+            if (c == '"' || c == '\'')
+            {
+                char quote = c;
+                i++;
+                bool closed = false;
+                while (i < length)
+                {
+                    if (source[i] == '\\') { i += 2; continue; }
+                    if (source[i] == quote) { i++; closed = true; break; }
+                    i++;
+                }
+                if (!closed) return "unterminated " + quote + " string at " + i;
+                prev = quote;
+                continue;
+            }
+            if (c == '`')
+            {
+                i++;
+                bool closed = false;
+                while (i < length)
+                {
+                    char d = source[i];
+                    if (d == '\\') { i += 2; continue; }
+                    if (d == '`') { i++; closed = true; break; }
+                    if (d == '$' && i + 1 < length && source[i + 1] == '{')
+                    {
+                        i += 2;
+                        int depth = 1;
+                        while (i < length && depth > 0)
+                        {
+                            char e = source[i];
+                            if (e == '\\') { i += 2; continue; }
+                            if (e == '{') depth++;
+                            else if (e == '}') { depth--; i++; continue; }
+                            else if (e == '"' || e == '\'' || e == '`')
+                            {
+                                char inner = e;
+                                i++;
+                                bool innerClosed = false;
+                                while (i < length)
+                                {
+                                    if (source[i] == '\\') { i += 2; continue; }
+                                    if (source[i] == inner) { i++; innerClosed = true; break; }
+                                    i++;
+                                }
+                                if (!innerClosed) return "unterminated string inside template expression at " + i;
+                                continue;
+                            }
+                            i++;
+                        }
+                        if (depth > 0) return "unclosed ${ expression in template at " + i;
+                        continue;
+                    }
+                    i++;
+                }
+                if (!closed) return "unterminated template literal at " + i;
+                prev = '`';
+                continue;
+            }
+            if (c == '/' && RegexAllowedAfter(prev))
+            {
+                i++;
+                bool inClass = false;
+                bool closed = false;
+                while (i < length)
+                {
+                    char d = source[i];
+                    if (d == '\\') { i += 2; continue; }
+                    if (d == '[') inClass = true;
+                    else if (d == ']') inClass = false;
+                    else if (d == '/' && !inClass) { i++; closed = true; break; }
+                    else if (d == '\n') break;
+                    i++;
+                }
+                if (!closed) return "unterminated regex literal at " + i;
+                prev = '/';
+                continue;
+            }
+            prev = c;
+            i++;
+        }
+        return null;
+    }
+
     public static string Patch(string source, string jsonDictionary, out int applied, out int keptChinese)
     {
         var serializer = new JavaScriptSerializer();
@@ -371,12 +482,18 @@ public class WebBundlePatcher
                             else if (e == '}') depth--;
                             else if (e == '"' || e == '\'' || e == '`')
                             {
+                                // Copy string/template content inside the
+                                // expression verbatim - dropping it would
+                                // unbalance the emitted quotes and corrupt
+                                // the bundle.
                                 char inner = e;
+                                output.Append(e);
                                 i++;
                                 while (i < length)
                                 {
-                                    if (source[i] == '\\') { i += 2; continue; }
+                                    if (source[i] == '\\') { output.Append(source[i]); output.Append(i + 1 < length ? source[i + 1] : '\0'); i += 2; continue; }
                                     if (source[i] == inner) break;
+                                    output.Append(source[i]);
                                     i++;
                                 }
                             }

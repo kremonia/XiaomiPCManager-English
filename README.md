@@ -14,7 +14,7 @@ The Chinese-market build contains **no English resources at all**: it ignores th
 |---|---|
 | Main window, settings, toolbox, drivers, feedback, app store, AI Search (~1,600 string literals) | WebView2 JS bundles, patched with a full zh→en dictionary |
 | Native shell strings (dialogs, menus, notifications, ~1,400 strings) | WinUI `.pri` resource files, rebuilt with `makepri` |
-| Tray tooltip | `小米电脑管家` → `Xiaomi` in `MiSmartShareDLL.dll` |
+| Tray menu & tooltip (AI search, screenshot, clipboard, calculator, notepad, task manager, settings, exit) | `.pri` resources + `小米电脑管家` → `Xiaomi` in `MiSmartShareDLL.dll` |
 | Cross-device clipboard app (menus, labels) | .NET resources + IL strings in `PcClipboard.exe` |
 | Update dialogs (unreadable `????` changelog on non-Chinese Windows) | Replaced with a localized notice |
 | Keyboard-backlight "Auto" OSD artwork (34 images, all scales) | Redrawn with System.Drawing |
